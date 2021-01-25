@@ -1,0 +1,126 @@
+{
+  "uid" : "baf03ed158cc5c3e",
+  "name" : "test_time_series_weekly_without_apikey_parameter",
+  "fullName" : "Tests.test_time_series_weekly.Test_TimeSeriesWeekly#test_time_series_weekly_without_apikey_parameter",
+  "historyId" : "10a05eb5a7674adaa64da6a130bcbc09",
+  "time" : {
+    "start" : 1611599812511,
+    "stop" : 1611599813509,
+    "duration" : 998
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "unittest_setUpClass_fixture_Test_TimeSeriesWeekly",
+    "time" : {
+      "start" : 1611599811274,
+      "stop" : 1611599811274,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "d1766e0ff6a2d03a",
+      "name" : "log",
+      "source" : "d1766e0ff6a2d03a.txt",
+      "type" : "text/plain",
+      "size" : 590
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "unittest_setUpClass_fixture_Test_TimeSeriesWeekly::0",
+    "time" : {
+      "start" : 1611599813932,
+      "stop" : 1611599813932,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "Tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_time_series_weekly"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_TimeSeriesWeekly"
+  }, {
+    "name" : "host",
+    "value" : "san-ThinkPad-T480"
+  }, {
+    "name" : "thread",
+    "value" : "227776-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Tests.test_time_series_weekly"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "1c802219637638b9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611595452011,
+        "stop" : 1611595453018,
+        "duration" : 1007
+      }
+    }, {
+      "uid" : "99b60c9b78ec2b11",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611595319422,
+        "stop" : 1611595320392,
+        "duration" : 970
+      }
+    }, {
+      "uid" : "781500f4dd2f5671",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611594084784,
+        "stop" : 1611594085139,
+        "duration" : 355
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "baf03ed158cc5c3e.json",
+  "parameterValues" : [ ]
+}

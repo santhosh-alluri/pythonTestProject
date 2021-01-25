@@ -1,0 +1,243 @@
+{
+  "type": "object",
+  "properties": {
+    "Symbol": {
+      "type": "string"
+    },
+    "AssetType": {
+      "type": "string"
+    },
+    "Name": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "string"
+    },
+    "Exchange": {
+      "type": "string"
+    },
+    "Currency": {
+      "type": "string"
+    },
+    "Country": {
+      "type": "string"
+    },
+    "Sector": {
+      "type": "string"
+    },
+    "Industry": {
+      "type": "string"
+    },
+    "Address": {
+      "type": "string"
+    },
+    "FullTimeEmployees": {
+      "type": "string"
+    },
+    "FiscalYearEnd": {
+      "type": "string"
+    },
+    "LatestQuarter": {
+      "type": "string"
+    },
+    "MarketCapitalization": {
+      "type": "string"
+    },
+    "EBITDA": {
+      "type": "string"
+    },
+    "PERatio": {
+      "type": "string"
+    },
+    "PEGRatio": {
+      "type": "string"
+    },
+    "BookValue": {
+      "type": "string"
+    },
+    "DividendPerShare": {
+      "type": "string"
+    },
+    "DividendYield": {
+      "type": "string"
+    },
+    "EPS": {
+      "type": "string"
+    },
+    "RevenuePerShareTTM": {
+      "type": "string"
+    },
+    "ProfitMargin": {
+      "type": "string"
+    },
+    "OperatingMarginTTM": {
+      "type": "string"
+    },
+    "ReturnOnAssetsTTM": {
+      "type": "string"
+    },
+    "ReturnOnEquityTTM": {
+      "type": "string"
+    },
+    "RevenueTTM": {
+      "type": "string"
+    },
+    "GrossProfitTTM": {
+      "type": "string"
+    },
+    "DilutedEPSTTM": {
+      "type": "string"
+    },
+    "QuarterlyEarningsGrowthYOY": {
+      "type": "string"
+    },
+    "QuarterlyRevenueGrowthYOY": {
+      "type": "string"
+    },
+    "AnalystTargetPrice": {
+      "type": "string"
+    },
+    "TrailingPE": {
+      "type": "string"
+    },
+    "ForwardPE": {
+      "type": "string"
+    },
+    "PriceToSalesRatioTTM": {
+      "type": "string"
+    },
+    "PriceToBookRatio": {
+      "type": "string"
+    },
+    "EVToRevenue": {
+      "type": "string"
+    },
+    "EVToEBITDA": {
+      "type": "string"
+    },
+    "Beta": {
+      "type": "string"
+    },
+    "52WeekHigh": {
+      "type": "string"
+    },
+    "52WeekLow": {
+      "type": "string"
+    },
+    "50DayMovingAverage": {
+      "type": "string"
+    },
+    "200DayMovingAverage": {
+      "type": "string"
+    },
+    "SharesOutstanding": {
+      "type": "string"
+    },
+    "SharesFloat": {
+      "type": "string"
+    },
+    "SharesShort": {
+      "type": "string"
+    },
+    "SharesShortPriorMonth": {
+      "type": "string"
+    },
+    "ShortRatio": {
+      "type": "string"
+    },
+    "ShortPercentOutstanding": {
+      "type": "string"
+    },
+    "ShortPercentFloat": {
+      "type": "string"
+    },
+    "PercentInsiders": {
+      "type": "string"
+    },
+    "PercentInstitutions": {
+      "type": "string"
+    },
+    "ForwardAnnualDividendRate": {
+      "type": "string"
+    },
+    "ForwardAnnualDividendYield": {
+      "type": "string"
+    },
+    "PayoutRatio": {
+      "type": "string"
+    },
+    "DividendDate": {
+      "type": "string"
+    },
+    "ExDividendDate": {
+      "type": "string"
+    },
+    "LastSplitFactor": {
+      "type": "string"
+    },
+    "LastSplitDate": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "Symbol",
+    "AssetType",
+    "Name",
+    "Description",
+    "Exchange",
+    "Currency",
+    "Country",
+    "Sector",
+    "Industry",
+    "Address",
+    "FullTimeEmployees",
+    "FiscalYearEnd",
+    "LatestQuarter",
+    "MarketCapitalization",
+    "EBITDA",
+    "PERatio",
+    "PEGRatio",
+    "BookValue",
+    "DividendPerShare",
+    "DividendYield",
+    "EPS",
+    "RevenuePerShareTTM",
+    "ProfitMargin",
+    "OperatingMarginTTM",
+    "ReturnOnAssetsTTM",
+    "ReturnOnEquityTTM",
+    "RevenueTTM",
+    "GrossProfitTTM",
+    "DilutedEPSTTM",
+    "QuarterlyEarningsGrowthYOY",
+    "QuarterlyRevenueGrowthYOY",
+    "AnalystTargetPrice",
+    "TrailingPE",
+    "ForwardPE",
+    "PriceToSalesRatioTTM",
+    "PriceToBookRatio",
+    "EVToRevenue",
+    "EVToEBITDA",
+    "Beta",
+    "52WeekHigh",
+    "52WeekLow",
+    "50DayMovingAverage",
+    "200DayMovingAverage",
+    "SharesOutstanding",
+    "SharesFloat",
+    "SharesShort",
+    "SharesShortPriorMonth",
+    "ShortRatio",
+    "ShortPercentOutstanding",
+    "ShortPercentFloat",
+    "PercentInsiders",
+    "PercentInstitutions",
+    "ForwardAnnualDividendRate",
+    "ForwardAnnualDividendYield",
+    "PayoutRatio",
+    "DividendDate",
+    "ExDividendDate",
+    "LastSplitFactor",
+    "LastSplitDate"
+  ]
+}

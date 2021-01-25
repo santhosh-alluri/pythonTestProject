@@ -1,0 +1,104 @@
+{
+  "uid" : "b208b7c3d43a4724",
+  "name" : "test_time_series_weekly",
+  "fullName" : "Tests.test_time_series_weekly.Test_TimeSeriesWeekly#test_time_series_weekly",
+  "historyId" : "b8e908fa0288d9263dad46fee187466d",
+  "time" : {
+    "start" : 1611594081053,
+    "stop" : 1611594082807,
+    "duration" : 1754
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: ++++ soft assert failure details follow below ++++\n\n++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++\nThe following failure was found in \"test_time_series_weekly\" (test_time_series_weekly.Test_TimeSeriesWeekly):\n+----------------------+----------------------+----------------------+\nTraceback (most recent call last):\n  File \"/home/san/PycharmProjects/pythonTestProject/Tests/test_time_series_weekly.py\", line 45, in test_time_series_weekly\n    self.soft_assert(self.assertTrue, False,\n  File \"/home/san/PycharmProjects/pythonTestProject/Tests/test_time_series_weekly.py\", line 42, in test_time_series_weekly\n    validate(instance=response_json, schema=content)\n  File \"/home/san/.local/lib/python3.8/site-packages/jsonschema/validators.py\", line 934, in validate\n    raise error\njsonschema.exceptions.ValidationError: '4. Output Size' is a required property\n\nFailed validating 'required' in schema['properties']['Meta Data']:\n    {'properties': {'1. Information': {'type': 'string'},\n                    '2. Symbol': {'type': 'string'},\n                    '3. Last Refreshed': {'type': 'string'},\n                    '4. Output Size': {'type': 'string'},\n                    '5. Time Zone': {'type': 'string'}},\n     'required': ['1. Information',\n                  '2. Symbol',\n                  '3. Last Refreshed',\n                  '4. Output Size',\n                  '5. Time Zone'],\n     'type': 'object'}\n\nOn instance['Meta Data']:\n    {'1. Information': 'Weekly Prices (open, high, low, close) and Volumes',\n     '2. Symbol': 'IBM',\n     '3. Last Refreshed': '2021-01-22',\n     '4. Time Zone': 'US/Eastern'}\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"/home/san/.local/lib/python3.8/site-packages/softest/case.py\", line 62, in soft_assert\n    assert_method(*arguments, **keywords)\n  File \"/usr/lib/python3.8/unittest/case.py\", line 765, in assertTrue\n    raise self.failureException(msg)\nAssertionError: False is not true : '4. Output Size' is a required property\n\nFailed validating 'required' in schema['properties']['Meta Data']:\n    {'properties': {'1. Information': {'type': 'string'},\n                    '2. Symbol': {'type': 'string'},\n                    '3. Last Refreshed': {'type': 'string'},\n                    '4. Output Size': {'type': 'string'},\n                    '5. Time Zone': {'type': 'string'}},\n     'required': ['1. Information',\n                  '2. Symbol',\n                  '3. Last Refreshed',\n                  '4. Output Size',\n                  '5. Time Zone'],\n     'type': 'object'}\n\nOn instance['Meta Data']:\n    {'1. Information': 'Weekly Prices (open, high, low, close) and Volumes',\n     '2. Symbol': 'IBM',\n     '3. Last Refreshed': '2021-01-22',\n     '4. Time Zone': 'US/Eastern'}\n\n-+ [1/1] +-",
+  "statusTrace" : "self = <test_time_series_weekly.Test_TimeSeriesWeekly testMethod=test_time_series_weekly>\n\n    def test_time_series_weekly(self):\n        self.logger.info(\"test started\")\n        url = self.base_url+\"function=TIME_SERIES_WEEKLY&symbol=\"+self.symbol+\"&apikey=\"+self.apiKey\n        response = requests.get(url)\n        response_json = response.json()\n    \n        self.logger.info(\"response : \"+ response.text)\n    \n        # verify status code\n        self.soft_assert(self.assertEqual, response.status_code, 200,\n                         msg=\"Expected status code is 200 but found \"+str(response.status_code))\n    \n        # header validation\n        self.soft_assert(self.assertEqual, response.headers.get('Content-Type'), \"application/json\",\n                         msg=\"Expected Content-Type is application/json but found \"+ response.headers.get('Content-Type'))\n    \n        # symbol validation\n        self.soft_assert(self.assertEqual, response_json['Meta Data']['2. Symbol'] , \"IBM\",\n                         msg=\"Expected symbol is IBM but found \"+ response_json['Meta Data']['2. Symbol'])\n    \n        # response json schema validation\n        path = Path(__file__).parent.parent/\"Config/schema.json\"\n        data = open(path).read()\n        content = json.loads(data)\n        try:\n            validate(instance=response_json, schema=content)\n        except jsonschema.exceptions.ValidationError as ve:\n            self.logger.info(\"error log\")\n            self.soft_assert(self.assertTrue, False,\n                             msg=ve)\n        self.logger.info(\"test ended\")\n>       self.assert_all()\n\nTests/test_time_series_weekly.py:48: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n../../.local/lib/python3.8/site-packages/softest/case.py:139: in assert_all\n    self.fail(''.join(failure_output))\nE   AssertionError: ++++ soft assert failure details follow below ++++\nE   \nE   ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++\nE   The following failure was found in \"test_time_series_weekly\" (test_time_series_weekly.Test_TimeSeriesWeekly):\nE   +----------------------+----------------------+----------------------+\nE   Traceback (most recent call last):\nE     File \"/home/san/PycharmProjects/pythonTestProject/Tests/test_time_series_weekly.py\", line 45, in test_time_series_weekly\nE       self.soft_assert(self.assertTrue, False,\nE     File \"/home/san/PycharmProjects/pythonTestProject/Tests/test_time_series_weekly.py\", line 42, in test_time_series_weekly\nE       validate(instance=response_json, schema=content)\nE     File \"/home/san/.local/lib/python3.8/site-packages/jsonschema/validators.py\", line 934, in validate\nE       raise error\nE   jsonschema.exceptions.ValidationError: '4. Output Size' is a required property\nE   \nE   Failed validating 'required' in schema['properties']['Meta Data']:\nE       {'properties': {'1. Information': {'type': 'string'},\nE                       '2. Symbol': {'type': 'string'},\nE                       '3. Last Refreshed': {'type': 'string'},\nE                       '4. Output Size': {'type': 'string'},\nE                       '5. Time Zone': {'type': 'string'}},\nE        'required': ['1. Information',\nE                     '2. Symbol',\nE                     '3. Last Refreshed',\nE                     '4. Output Size',\nE                     '5. Time Zone'],\nE        'type': 'object'}\nE   \nE   On instance['Meta Data']:\nE       {'1. Information': 'Weekly Prices (open, high, low, close) and Volumes',\nE        '2. Symbol': 'IBM',\nE        '3. Last Refreshed': '2021-01-22',\nE        '4. Time Zone': 'US/Eastern'}\nE   \nE   During handling of the above exception, another exception occurred:\nE   \nE   Traceback (most recent call last):\nE     File \"/home/san/.local/lib/python3.8/site-packages/softest/case.py\", line 62, in soft_assert\nE       assert_method(*arguments, **keywords)\nE     File \"/usr/lib/python3.8/unittest/case.py\", line 765, in assertTrue\nE       raise self.failureException(msg)\nE   AssertionError: False is not true : '4. Output Size' is a required property\nE   \nE   Failed validating 'required' in schema['properties']['Meta Data']:\nE       {'properties': {'1. Information': {'type': 'string'},\nE                       '2. Symbol': {'type': 'string'},\nE                       '3. Last Refreshed': {'type': 'string'},\nE                       '4. Output Size': {'type': 'string'},\nE                       '5. Time Zone': {'type': 'string'}},\nE        'required': ['1. Information',\nE                     '2. Symbol',\nE                     '3. Last Refreshed',\nE                     '4. Output Size',\nE                     '5. Time Zone'],\nE        'type': 'object'}\nE   \nE   On instance['Meta Data']:\nE       {'1. Information': 'Weekly Prices (open, high, low, close) and Volumes',\nE        '2. Symbol': 'IBM',\nE        '3. Last Refreshed': '2021-01-22',\nE        '4. Time Zone': 'US/Eastern'}\nE   \nE   -+ [1/1] +-",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "unittest_setUpClass_fixture_Test_TimeSeriesWeekly",
+    "time" : {
+      "start" : 1611594081052,
+      "stop" : 1611594081052,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: ++++ soft assert failure details follow below ++++\n\n++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++\nThe following failure was found in \"test_time_series_weekly\" (test_time_series_weekly.Test_TimeSeriesWeekly):\n+----------------------+----------------------+----------------------+\nTraceback (most recent call last):\n  File \"/home/san/PycharmProjects/pythonTestProject/Tests/test_time_series_weekly.py\", line 45, in test_time_series_weekly\n    self.soft_assert(self.assertTrue, False,\n  File \"/home/san/PycharmProjects/pythonTestProject/Tests/test_time_series_weekly.py\", line 42, in test_time_series_weekly\n    validate(instance=response_json, schema=content)\n  File \"/home/san/.local/lib/python3.8/site-packages/jsonschema/validators.py\", line 934, in validate\n    raise error\njsonschema.exceptions.ValidationError: '4. Output Size' is a required property\n\nFailed validating 'required' in schema['properties']['Meta Data']:\n    {'properties': {'1. Information': {'type': 'string'},\n                    '2. Symbol': {'type': 'string'},\n                    '3. Last Refreshed': {'type': 'string'},\n                    '4. Output Size': {'type': 'string'},\n                    '5. Time Zone': {'type': 'string'}},\n     'required': ['1. Information',\n                  '2. Symbol',\n                  '3. Last Refreshed',\n                  '4. Output Size',\n                  '5. Time Zone'],\n     'type': 'object'}\n\nOn instance['Meta Data']:\n    {'1. Information': 'Weekly Prices (open, high, low, close) and Volumes',\n     '2. Symbol': 'IBM',\n     '3. Last Refreshed': '2021-01-22',\n     '4. Time Zone': 'US/Eastern'}\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"/home/san/.local/lib/python3.8/site-packages/softest/case.py\", line 62, in soft_assert\n    assert_method(*arguments, **keywords)\n  File \"/usr/lib/python3.8/unittest/case.py\", line 765, in assertTrue\n    raise self.failureException(msg)\nAssertionError: False is not true : '4. Output Size' is a required property\n\nFailed validating 'required' in schema['properties']['Meta Data']:\n    {'properties': {'1. Information': {'type': 'string'},\n                    '2. Symbol': {'type': 'string'},\n                    '3. Last Refreshed': {'type': 'string'},\n                    '4. Output Size': {'type': 'string'},\n                    '5. Time Zone': {'type': 'string'}},\n     'required': ['1. Information',\n                  '2. Symbol',\n                  '3. Last Refreshed',\n                  '4. Output Size',\n                  '5. Time Zone'],\n     'type': 'object'}\n\nOn instance['Meta Data']:\n    {'1. Information': 'Weekly Prices (open, high, low, close) and Volumes',\n     '2. Symbol': 'IBM',\n     '3. Last Refreshed': '2021-01-22',\n     '4. Time Zone': 'US/Eastern'}\n\n-+ [1/1] +-",
+    "statusTrace" : "self = <test_time_series_weekly.Test_TimeSeriesWeekly testMethod=test_time_series_weekly>\n\n    def test_time_series_weekly(self):\n        self.logger.info(\"test started\")\n        url = self.base_url+\"function=TIME_SERIES_WEEKLY&symbol=\"+self.symbol+\"&apikey=\"+self.apiKey\n        response = requests.get(url)\n        response_json = response.json()\n    \n        self.logger.info(\"response : \"+ response.text)\n    \n        # verify status code\n        self.soft_assert(self.assertEqual, response.status_code, 200,\n                         msg=\"Expected status code is 200 but found \"+str(response.status_code))\n    \n        # header validation\n        self.soft_assert(self.assertEqual, response.headers.get('Content-Type'), \"application/json\",\n                         msg=\"Expected Content-Type is application/json but found \"+ response.headers.get('Content-Type'))\n    \n        # symbol validation\n        self.soft_assert(self.assertEqual, response_json['Meta Data']['2. Symbol'] , \"IBM\",\n                         msg=\"Expected symbol is IBM but found \"+ response_json['Meta Data']['2. Symbol'])\n    \n        # response json schema validation\n        path = Path(__file__).parent.parent/\"Config/schema.json\"\n        data = open(path).read()\n        content = json.loads(data)\n        try:\n            validate(instance=response_json, schema=content)\n        except jsonschema.exceptions.ValidationError as ve:\n            self.logger.info(\"error log\")\n            self.soft_assert(self.assertTrue, False,\n                             msg=ve)\n        self.logger.info(\"test ended\")\n>       self.assert_all()\n\nTests/test_time_series_weekly.py:48: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n../../.local/lib/python3.8/site-packages/softest/case.py:139: in assert_all\n    self.fail(''.join(failure_output))\nE   AssertionError: ++++ soft assert failure details follow below ++++\nE   \nE   ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++\nE   The following failure was found in \"test_time_series_weekly\" (test_time_series_weekly.Test_TimeSeriesWeekly):\nE   +----------------------+----------------------+----------------------+\nE   Traceback (most recent call last):\nE     File \"/home/san/PycharmProjects/pythonTestProject/Tests/test_time_series_weekly.py\", line 45, in test_time_series_weekly\nE       self.soft_assert(self.assertTrue, False,\nE     File \"/home/san/PycharmProjects/pythonTestProject/Tests/test_time_series_weekly.py\", line 42, in test_time_series_weekly\nE       validate(instance=response_json, schema=content)\nE     File \"/home/san/.local/lib/python3.8/site-packages/jsonschema/validators.py\", line 934, in validate\nE       raise error\nE   jsonschema.exceptions.ValidationError: '4. Output Size' is a required property\nE   \nE   Failed validating 'required' in schema['properties']['Meta Data']:\nE       {'properties': {'1. Information': {'type': 'string'},\nE                       '2. Symbol': {'type': 'string'},\nE                       '3. Last Refreshed': {'type': 'string'},\nE                       '4. Output Size': {'type': 'string'},\nE                       '5. Time Zone': {'type': 'string'}},\nE        'required': ['1. Information',\nE                     '2. Symbol',\nE                     '3. Last Refreshed',\nE                     '4. Output Size',\nE                     '5. Time Zone'],\nE        'type': 'object'}\nE   \nE   On instance['Meta Data']:\nE       {'1. Information': 'Weekly Prices (open, high, low, close) and Volumes',\nE        '2. Symbol': 'IBM',\nE        '3. Last Refreshed': '2021-01-22',\nE        '4. Time Zone': 'US/Eastern'}\nE   \nE   During handling of the above exception, another exception occurred:\nE   \nE   Traceback (most recent call last):\nE     File \"/home/san/.local/lib/python3.8/site-packages/softest/case.py\", line 62, in soft_assert\nE       assert_method(*arguments, **keywords)\nE     File \"/usr/lib/python3.8/unittest/case.py\", line 765, in assertTrue\nE       raise self.failureException(msg)\nE   AssertionError: False is not true : '4. Output Size' is a required property\nE   \nE   Failed validating 'required' in schema['properties']['Meta Data']:\nE       {'properties': {'1. Information': {'type': 'string'},\nE                       '2. Symbol': {'type': 'string'},\nE                       '3. Last Refreshed': {'type': 'string'},\nE                       '4. Output Size': {'type': 'string'},\nE                       '5. Time Zone': {'type': 'string'}},\nE        'required': ['1. Information',\nE                     '2. Symbol',\nE                     '3. Last Refreshed',\nE                     '4. Output Size',\nE                     '5. Time Zone'],\nE        'type': 'object'}\nE   \nE   On instance['Meta Data']:\nE       {'1. Information': 'Weekly Prices (open, high, low, close) and Volumes',\nE        '2. Symbol': 'IBM',\nE        '3. Last Refreshed': '2021-01-22',\nE        '4. Time Zone': 'US/Eastern'}\nE   \nE   -+ [1/1] +-",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "f48603151aabe69d",
+      "name" : "log",
+      "source" : "f48603151aabe69d.txt",
+      "type" : "text/plain",
+      "size" : 232815
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "unittest_setUpClass_fixture_Test_TimeSeriesWeekly::0",
+    "time" : {
+      "start" : 1611594086174,
+      "stop" : 1611594086174,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "Tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_time_series_weekly"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_TimeSeriesWeekly"
+  }, {
+    "name" : "host",
+    "value" : "san-ThinkPad-T480"
+  }, {
+    "name" : "thread",
+    "value" : "221583-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Tests.test_time_series_weekly"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b208b7c3d43a4724.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,281 @@
+[ {
+  "uid" : "ef0420919690510",
+  "name" : "test_search_endpoint_invalid_apiToken_and_symbol",
+  "time" : {
+    "start" : 1611599804508,
+    "stop" : 1611599805623,
+    "duration" : 1115
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e95c8e07ec2edc57",
+  "name" : "test_time_series_daily_without_apikey_parameter",
+  "time" : {
+    "start" : 1611599809850,
+    "stop" : 1611599810950,
+    "duration" : 1100
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1fab8da3f806995",
+  "name" : "test_global_quote_without_apikey_parameter",
+  "time" : {
+    "start" : 1611599801257,
+    "stop" : 1611599802242,
+    "duration" : 985
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6a3592896f78da4f",
+  "name" : "test_company_overview_without_symbol_parameter",
+  "time" : {
+    "start" : 1611599798469,
+    "stop" : 1611599799478,
+    "duration" : 1009
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f104bbf880efe6a1",
+  "name" : "test_time_series_daily",
+  "time" : {
+    "start" : 1611599808089,
+    "stop" : 1611599809037,
+    "duration" : 948
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "6010ecb8d3abceb1",
+  "name" : "test_time_series_daily_without_symbol_parameter",
+  "time" : {
+    "start" : 1611599810956,
+    "stop" : 1611599811255,
+    "duration" : 299
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "e967788329c21457",
+  "name" : "test_global_quote_invalid_symbol",
+  "time" : {
+    "start" : 1611599800958,
+    "stop" : 1611599801236,
+    "duration" : 278
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "e65d828ab00fee70",
+  "name" : "test_time_series_daily_invalid_apiToken_and_symbol",
+  "time" : {
+    "start" : 1611599809059,
+    "stop" : 1611599809413,
+    "duration" : 354
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "9fad79e0f790e602",
+  "name" : "test_search_endpoint",
+  "time" : {
+    "start" : 1611599803390,
+    "stop" : 1611599804501,
+    "duration" : 1111
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "16cc29f69678117e",
+  "name" : "test_global_quote",
+  "time" : {
+    "start" : 1611599799490,
+    "stop" : 1611599800609,
+    "duration" : 1119
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "afbca76c1d9d532c",
+  "name" : "test_company_overview_invalid_symbol",
+  "time" : {
+    "start" : 1611599796310,
+    "stop" : 1611599797429,
+    "duration" : 1119
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "dcc9e1ca1ff3f3a1",
+  "name" : "test_global_quote_without_symbol_parameter",
+  "time" : {
+    "start" : 1611599802250,
+    "stop" : 1611599803370,
+    "duration" : 1120
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "e8a3a8930012c14",
+  "name" : "test_time_series_weekly_invalid_apiToken",
+  "time" : {
+    "start" : 1611595449852,
+    "stop" : 1611595450967,
+    "duration" : 1115
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4a8543b6aa63c981",
+  "name" : "test_company_overview_invalid_apiToken_and_symbol",
+  "time" : {
+    "start" : 1611599795196,
+    "stop" : 1611599796302,
+    "duration" : 1106
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "baf03ed158cc5c3e",
+  "name" : "test_time_series_weekly_without_apikey_parameter",
+  "time" : {
+    "start" : 1611599812511,
+    "stop" : 1611599813509,
+    "duration" : 998
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8a4a07b1ffd3172f",
+  "name" : "test_time_series_weekly_invalid_symbol",
+  "time" : {
+    "start" : 1611599812091,
+    "stop" : 1611599812481,
+    "duration" : 390
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "bc02a152662f0f1f",
+  "name" : "test_company_overview",
+  "time" : {
+    "start" : 1611599793910,
+    "stop" : 1611599795191,
+    "duration" : 1281
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2d4930ef5a12c1",
+  "name" : "test_time_series_daily_invalid_symbol",
+  "time" : {
+    "start" : 1611599809432,
+    "stop" : 1611599809829,
+    "duration" : 397
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "1e637b66081a8e0c",
+  "name" : "test_global_quote_invalid_apiToken_and_symbol",
+  "time" : {
+    "start" : 1611599800615,
+    "stop" : 1611599800909,
+    "duration" : 294
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "7b12e5d6a760040b",
+  "name" : "test_time_series_daily_invalid_apiToken",
+  "time" : {
+    "start" : 1611595312044,
+    "stop" : 1611595312540,
+    "duration" : 496
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "54bf0686df597460",
+  "name" : "test_time_series_weekly_invalid_apiToken_and_symbol",
+  "time" : {
+    "start" : 1611599811683,
+    "stop" : 1611599812072,
+    "duration" : 389
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "4ecff5f891d0ceb1",
+  "name" : "test_time_series_weekly_without_symbol_parameter",
+  "time" : {
+    "start" : 1611599813517,
+    "stop" : 1611599813916,
+    "duration" : 399
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "cd54a2c63c9fdd9f",
+  "name" : "test_time_series_weekly",
+  "time" : {
+    "start" : 1611599811275,
+    "stop" : 1611599811666,
+    "duration" : 391
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "978e656a3e8d198e",
+  "name" : "test_company_overview_without_apikey_parameter",
+  "time" : {
+    "start" : 1611599797436,
+    "stop" : 1611599798457,
+    "duration" : 1021
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3d0833ba2a865161",
+  "name" : "test_search_endpoint_without_apikey_parameter",
+  "time" : {
+    "start" : 1611599806682,
+    "stop" : 1611599807671,
+    "duration" : 989
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a7e4d76dcc6f1c8a",
+  "name" : "test_search_endpoint_invalid_symbol",
+  "time" : {
+    "start" : 1611599805630,
+    "stop" : 1611599806675,
+    "duration" : 1045
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3ff1e4c4554f9b18",
+  "name" : "test_global_quote_invalid_apiToken",
+  "time" : {
+    "start" : 1611597541799,
+    "stop" : 1611597542953,
+    "duration" : 1154
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f77793144551a5d5",
+  "name" : "test_search_endpoint_without_symbol_parameter",
+  "time" : {
+    "start" : 1611599807678,
+    "stop" : 1611599808079,
+    "duration" : 401
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

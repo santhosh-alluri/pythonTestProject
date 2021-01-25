@@ -1,0 +1,55 @@
+https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=IBM&apikey=0S5QXIPXLA3EYXH5
+{'type': 'object', 'properties': {'Meta Data': {'type': 'object', 'properties': {'1. Information': {'type': 'string'}, '2. Symbol': {'type': 'string'}, '3. Last Refreshed': {'type': 'string'}, '4. Output Size': {'type': 'string'}, '5. Time Zone': {'type': 'string'}}, 'required': ['1. Information', '2. Symbol', '3. Last Refreshed', '4. Output Size', '5. Time Zone']}, 'Time Series (Daily)': {'type': 'object', 'properties': {'1. open': {'type': 'string'}, '2. high': {'type': 'string'}, '3. low': {'type': 'string'}, '4. close': {'type': 'string'}, '5. volume': {'type': 'string'}}}}}
+{
+  "type": "object",
+  "properties": {
+    "Meta Data": {
+      "type": "object",
+      "properties": {
+        "1. Information": {
+          "type": "string"
+        },
+        "2. Symbol": {
+          "type": "string"
+        },
+        "3. Last Refreshed": {
+          "type": "string"
+        },
+        "4. Output Size": {
+          "type": "string"
+        },
+        "5. Time Zone": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "1. Information",
+        "2. Symbol",
+        "3. Last Refreshed",
+        "4. Output Size",
+        "5. Time Zone"
+      ]
+    },
+    "Time Series (Daily)": {
+      "type": "object",
+      "properties": {
+        "1. open": {
+          "type": "string"
+        },
+        "2. high": {
+          "type": "string"
+        },
+        "3. low": {
+          "type": "string"
+        },
+        "4. close": {
+          "type": "string"
+        },
+        "5. volume": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}
+None

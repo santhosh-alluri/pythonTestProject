@@ -1,0 +1,135 @@
+{
+  "uid" : "cd54a2c63c9fdd9f",
+  "name" : "test_time_series_weekly",
+  "fullName" : "Tests.test_time_series_weekly.Test_TimeSeriesWeekly#test_time_series_weekly",
+  "historyId" : "b8e908fa0288d9263dad46fee187466d",
+  "time" : {
+    "start" : 1611599811275,
+    "stop" : 1611599811666,
+    "duration" : 391
+  },
+  "status" : "broken",
+  "statusMessage" : "KeyError: 'Meta Data'",
+  "statusTrace" : "self = <test_time_series_weekly.Test_TimeSeriesWeekly testMethod=test_time_series_weekly>\n\n    def test_time_series_weekly(self):\n        self.logger.info(\"test started\")\n        url = self.base_url+\"function=TIME_SERIES_WEEKLY&symbol=\"+self.symbol+\"&apikey=\"+self.apiKey\n        self.logger.info(\"url : \" + url)\n        response = requests.get(url)\n        response_json = response.json()\n    \n        self.logger.info(\"response : \"+ response.text)\n    \n        # verify status code\n        self.soft_assert(self.assertEqual, response.status_code, 200,\n                         msg=\"Expected status code is 200 but found \"+str(response.status_code))\n    \n        # header validation\n        self.soft_assert(self.assertEqual, response.headers.get('Content-Type'), \"application/json\",\n                         msg=\"Expected Content-Type is application/json but found \"+ response.headers.get('Content-Type'))\n    \n        # symbol validation\n>       self.soft_assert(self.assertEqual, response_json['Meta Data']['2. Symbol'] , \"IBM\",\n                         msg=\"Expected symbol is IBM but found \"+ response_json['Meta Data']['2. Symbol'])\nE       KeyError: 'Meta Data'\n\nTests/test_time_series_weekly.py:35: KeyError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "unittest_setUpClass_fixture_Test_TimeSeriesWeekly",
+    "time" : {
+      "start" : 1611599811274,
+      "stop" : 1611599811274,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "KeyError: 'Meta Data'",
+    "statusTrace" : "self = <test_time_series_weekly.Test_TimeSeriesWeekly testMethod=test_time_series_weekly>\n\n    def test_time_series_weekly(self):\n        self.logger.info(\"test started\")\n        url = self.base_url+\"function=TIME_SERIES_WEEKLY&symbol=\"+self.symbol+\"&apikey=\"+self.apiKey\n        self.logger.info(\"url : \" + url)\n        response = requests.get(url)\n        response_json = response.json()\n    \n        self.logger.info(\"response : \"+ response.text)\n    \n        # verify status code\n        self.soft_assert(self.assertEqual, response.status_code, 200,\n                         msg=\"Expected status code is 200 but found \"+str(response.status_code))\n    \n        # header validation\n        self.soft_assert(self.assertEqual, response.headers.get('Content-Type'), \"application/json\",\n                         msg=\"Expected Content-Type is application/json but found \"+ response.headers.get('Content-Type'))\n    \n        # symbol validation\n>       self.soft_assert(self.assertEqual, response_json['Meta Data']['2. Symbol'] , \"IBM\",\n                         msg=\"Expected symbol is IBM but found \"+ response_json['Meta Data']['2. Symbol'])\nE       KeyError: 'Meta Data'\n\nTests/test_time_series_weekly.py:35: KeyError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "aa2f4a8c1faafcd4",
+      "name" : "log",
+      "source" : "aa2f4a8c1faafcd4.txt",
+      "type" : "text/plain",
+      "size" : 522
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "unittest_setUpClass_fixture_Test_TimeSeriesWeekly::0",
+    "time" : {
+      "start" : 1611599813932,
+      "stop" : 1611599813932,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "Tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_time_series_weekly"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_TimeSeriesWeekly"
+  }, {
+    "name" : "host",
+    "value" : "san-ThinkPad-T480"
+  }, {
+    "name" : "thread",
+    "value" : "227776-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Tests.test_time_series_weekly"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "5db21b93be82e0a5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611595447546,
+        "stop" : 1611595449850,
+        "duration" : 2304
+      }
+    }, {
+      "uid" : "cd355dde88869920",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611595314997,
+        "stop" : 1611595317309,
+        "duration" : 2312
+      }
+    }, {
+      "uid" : "b208b7c3d43a4724",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: ++++ soft assert failure details follow below ++++\n\n++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++\nThe following failure was found in \"test_time_series_weekly\" (test_time_series_weekly.Test_TimeSeriesWeekly):\n+----------------------+----------------------+----------------------+\nTraceback (most recent call last):\n  File \"/home/san/PycharmProjects/pythonTestProject/Tests/test_time_series_weekly.py\", line 45, in test_time_series_weekly\n    self.soft_assert(self.assertTrue, False,\n  File \"/home/san/PycharmProjects/pythonTestProject/Tests/test_time_series_weekly.py\", line 42, in test_time_series_weekly\n    validate(instance=response_json, schema=content)\n  File \"/home/san/.local/lib/python3.8/site-packages/jsonschema/validators.py\", line 934, in validate\n    raise error\njsonschema.exceptions.ValidationError: '4. Output Size' is a required property\n\nFailed validating 'required' in schema['properties']['Meta Data']:\n    {'properties': {'1. Information': {'type': 'string'},\n                    '2. Symbol': {'type': 'string'},\n                    '3. Last Refreshed': {'type': 'string'},\n                    '4. Output Size': {'type': 'string'},\n                    '5. Time Zone': {'type': 'string'}},\n     'required': ['1. Information',\n                  '2. Symbol',\n                  '3. Last Refreshed',\n                  '4. Output Size',\n                  '5. Time Zone'],\n     'type': 'object'}\n\nOn instance['Meta Data']:\n    {'1. Information': 'Weekly Prices (open, high, low, close) and Volumes',\n     '2. Symbol': 'IBM',\n     '3. Last Refreshed': '2021-01-22',\n     '4. Time Zone': 'US/Eastern'}\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"/home/san/.local/lib/python3.8/site-packages/softest/case.py\", line 62, in soft_assert\n    assert_method(*arguments, **keywords)\n  File \"/usr/lib/python3.8/unittest/case.py\", line 765, in assertTrue\n    raise self.failureException(msg)\nAssertionError: False is not true : '4. Output Size' is a required property\n\nFailed validating 'required' in schema['properties']['Meta Data']:\n    {'properties': {'1. Information': {'type': 'string'},\n                    '2. Symbol': {'type': 'string'},\n                    '3. Last Refreshed': {'type': 'string'},\n                    '4. Output Size': {'type': 'string'},\n                    '5. Time Zone': {'type': 'string'}},\n     'required': ['1. Information',\n                  '2. Symbol',\n                  '3. Last Refreshed',\n                  '4. Output Size',\n                  '5. Time Zone'],\n     'type': 'object'}\n\nOn instance['Meta Data']:\n    {'1. Information': 'Weekly Prices (open, high, low, close) and Volumes',\n     '2. Symbol': 'IBM',\n     '3. Last Refreshed': '2021-01-22',\n     '4. Time Zone': 'US/Eastern'}\n\n-+ [1/1] +-",
+      "time" : {
+        "start" : 1611594081053,
+        "stop" : 1611594082807,
+        "duration" : 1754
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "cd54a2c63c9fdd9f.json",
+  "parameterValues" : [ ]
+}

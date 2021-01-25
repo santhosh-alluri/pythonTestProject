@@ -1,0 +1,2 @@
+[32mINFO    [0m root:test_time_series_daily.py:77 test_time_series_daily_invalid_symbol started
+[32mINFO    [0m root:test_time_series_daily.py:85 test_time_series_daily_invalid_symbol ended

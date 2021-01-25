@@ -1,0 +1,57 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "bestMatches": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "1. symbol": {
+              "type": "string"
+            },
+            "2. name": {
+              "type": "string"
+            },
+            "3. type": {
+              "type": "string"
+            },
+            "4. region": {
+              "type": "string"
+            },
+            "5. marketOpen": {
+              "type": "string"
+            },
+            "6. marketClose": {
+              "type": "string"
+            },
+            "7. timezone": {
+              "type": "string"
+            },
+            "8. currency": {
+              "type": "string"
+            },
+            "9. matchScore": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "1. symbol",
+            "2. name",
+            "3. type",
+            "4. region",
+            "5. marketOpen",
+            "6. marketClose",
+            "7. timezone",
+            "8. currency",
+            "9. matchScore"
+          ]
+        }
+      ]
+    }
+  },
+  "required": [
+    "bestMatches"
+  ]
+}
