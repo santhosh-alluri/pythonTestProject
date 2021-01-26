@@ -53,4 +53,7 @@ Please run below command from project root terminal
 8. in Html report, you can status of execution(fail/pass tests)
 
 
+## Manual Testcases
+1. open Testcases folder
+2. open testCases.xlsx file
 

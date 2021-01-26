@@ -4,7 +4,7 @@ import Base
 import pytest
 
 
-class Test_CompanyOverview(Base.BaseClass):
+class Test_Search_Endpoint(Base.BaseClass):
 
     @pytest.mark.skipif(Base.is_testcase_runnable('test_search_endpoint'), reason="skipping because flag is set to false in excel")
     def test_search_endpoint(self):
