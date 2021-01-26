@@ -1,0 +1,59 @@
+{
+  "uid" : "e1d63b71c46d7099",
+  "name" : "test_company_overview_without_apikey_parameter",
+  "fullName" : "Tests.test_company_overview.Test_CompanyOverview#test_company_overview_without_apikey_parameter",
+  "historyId" : "57ab5583638dae6f30be18c9a345868a",
+  "time" : {
+    "start" : 1611669793152,
+    "stop" : 1611669793152,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "statusMessage" : "Skipped: skipping because flag is set to false in excel",
+  "statusTrace" : "('/home/san/PycharmProjects/pythonTestProject/Tests/test_company_overview.py', 86, 'Skipped: skipping because flag is set to false in excel')",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "@pytest.mark.skipif(True, reason='skipping because flag is set to false in excel')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_company_overview"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_CompanyOverview"
+  }, {
+    "name" : "host",
+    "value" : "san-ThinkPad-T480"
+  }, {
+    "name" : "thread",
+    "value" : "290352-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Tests.test_company_overview"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.skipif(True, reason='skipping because flag is set to false in excel')" ]
+  },
+  "source" : "e1d63b71c46d7099.json",
+  "parameterValues" : [ ]
+}

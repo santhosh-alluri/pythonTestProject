@@ -1,0 +1,104 @@
+{
+  "uid" : "35f546396c473dad",
+  "name" : "test_global_quote_invalid_apiToken_and_symbol",
+  "fullName" : "Tests.test_global_quote.Test_GlobalQuote#test_global_quote_invalid_apiToken_and_symbol",
+  "historyId" : "1962a651dee460323636c2ffa05978ec",
+  "time" : {
+    "start" : 1611599800615,
+    "stop" : 1611599800909,
+    "duration" : 294
+  },
+  "status" : "broken",
+  "statusMessage" : "KeyError: 'Global Quote'",
+  "statusTrace" : "self = <test_global_quote.Test_GlobalQuote testMethod=test_global_quote_invalid_apiToken_and_symbol>\n\n    def test_global_quote_invalid_apiToken_and_symbol(self):\n        self.logger.info(\"test_time_series_daily_invalid_symbol started\")\n        url = self.base_url+\"function=GLOBAL_QUOTE&symbol=wipro&apikey=raft\"\n        self.logger.info(\"url : \" + url)\n        response = requests.get(url)\n        response_json = response.json()\n        self.logger.info(\"response : \" + response.text)\n        # response assertion\n>       self.soft_assert(self.assertEqual, response_json['Global Quote'],\n                         {},\n                         msg=\"response not meeted expected error\" + json.dumps(response_json['Global Quote']))\nE       KeyError: 'Global Quote'\n\nTests/test_global_quote.py:73: KeyError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "unittest_setUpClass_fixture_Test_GlobalQuote",
+    "time" : {
+      "start" : 1611599799488,
+      "stop" : 1611599799488,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "KeyError: 'Global Quote'",
+    "statusTrace" : "self = <test_global_quote.Test_GlobalQuote testMethod=test_global_quote_invalid_apiToken_and_symbol>\n\n    def test_global_quote_invalid_apiToken_and_symbol(self):\n        self.logger.info(\"test_time_series_daily_invalid_symbol started\")\n        url = self.base_url+\"function=GLOBAL_QUOTE&symbol=wipro&apikey=raft\"\n        self.logger.info(\"url : \" + url)\n        response = requests.get(url)\n        response_json = response.json()\n        self.logger.info(\"response : \" + response.text)\n        # response assertion\n>       self.soft_assert(self.assertEqual, response_json['Global Quote'],\n                         {},\n                         msg=\"response not meeted expected error\" + json.dumps(response_json['Global Quote']))\nE       KeyError: 'Global Quote'\n\nTests/test_global_quote.py:73: KeyError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "39532a61fdb6e879",
+      "name" : "log",
+      "source" : "39532a61fdb6e879.txt",
+      "type" : "text/plain",
+      "size" : 521
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "unittest_setUpClass_fixture_Test_GlobalQuote::0",
+    "time" : {
+      "start" : 1611599803385,
+      "stop" : 1611599803385,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "Tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_global_quote"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_GlobalQuote"
+  }, {
+    "name" : "host",
+    "value" : "san-ThinkPad-T480"
+  }, {
+    "name" : "thread",
+    "value" : "227776-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Tests.test_global_quote"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "35f546396c473dad.json",
+  "parameterValues" : [ ]
+}

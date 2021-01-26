@@ -1,0 +1,100 @@
+{
+  "uid" : "24648bbc62236c0e",
+  "name" : "test_time_series_daily_without_symbol_parameter",
+  "fullName" : "Tests.test_time_series_daily.Test_TimeSeriesDaily#test_time_series_daily_without_symbol_parameter",
+  "historyId" : "f2a7d60485890481be621c47ab6a27ed",
+  "time" : {
+    "start" : 1611593676096,
+    "stop" : 1611593677094,
+    "duration" : 998
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "unittest_setUpClass_fixture_Test_TimeSeriesDaily",
+    "time" : {
+      "start" : 1611593671450,
+      "stop" : 1611593671450,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "3c50c055c769190d",
+      "name" : "log",
+      "source" : "3c50c055c769190d.txt",
+      "type" : "text/plain",
+      "size" : 193
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "unittest_setUpClass_fixture_Test_TimeSeriesDaily::0",
+    "time" : {
+      "start" : 1611593677096,
+      "stop" : 1611593677096,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "Tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_time_series_daily"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_TimeSeriesDaily"
+  }, {
+    "name" : "host",
+    "value" : "san-ThinkPad-T480"
+  }, {
+    "name" : "thread",
+    "value" : "221064-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Tests.test_time_series_daily"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "24648bbc62236c0e.json",
+  "parameterValues" : [ ]
+}

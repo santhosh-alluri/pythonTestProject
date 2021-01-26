@@ -1,0 +1,4 @@
+[32mINFO    [0m root:test_company_overview.py:50 test_time_series_daily_invalid_symbol started
+[32mINFO    [0m root:test_company_overview.py:52 url : https://www.alphavantage.co/query?function=OVERVIEW&symbol=invalid&apikey=0S5QXIPXLA3EYXH5
+[32mINFO    [0m root:test_company_overview.py:55 response : {}
+[32mINFO    [0m root:test_company_overview.py:60 test_time_series_daily_invalid_symbol ended

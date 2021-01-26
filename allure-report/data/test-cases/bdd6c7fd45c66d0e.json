@@ -1,0 +1,100 @@
+{
+  "uid" : "bdd6c7fd45c66d0e",
+  "name" : "test_company_overview_invalid_symbol",
+  "fullName" : "Tests.test_company_overview.Test_CompanyOverview#test_company_overview_invalid_symbol",
+  "historyId" : "b29ea84554df35292177d7ba709479a0",
+  "time" : {
+    "start" : 1611643596796,
+    "stop" : 1611643597928,
+    "duration" : 1132
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "unittest_setUpClass_fixture_Test_CompanyOverview",
+    "time" : {
+      "start" : 1611643595635,
+      "stop" : 1611643595636,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "d10498ef61a5c2b2",
+      "name" : "log",
+      "source" : "d10498ef61a5c2b2.txt",
+      "type" : "text/plain",
+      "size" : 404
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "unittest_setUpClass_fixture_Test_CompanyOverview::0",
+    "time" : {
+      "start" : 1611643599308,
+      "stop" : 1611643599308,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "Tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_company_overview"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_CompanyOverview"
+  }, {
+    "name" : "host",
+    "value" : "san-ThinkPad-T480"
+  }, {
+    "name" : "thread",
+    "value" : "265736-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Tests.test_company_overview"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "bdd6c7fd45c66d0e.json",
+  "parameterValues" : [ ]
+}

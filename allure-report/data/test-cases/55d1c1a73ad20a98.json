@@ -1,0 +1,226 @@
+{
+  "uid" : "55d1c1a73ad20a98",
+  "name" : "test_search_endpoint_without_apikey_parameter",
+  "fullName" : "Tests.test_search_endpoint.Test_CompanyOverview#test_search_endpoint_without_apikey_parameter",
+  "historyId" : "abbc6eccfdbf4e257c8f9ba77039eb21",
+  "time" : {
+    "start" : 1611670577525,
+    "stop" : 1611670578539,
+    "duration" : 1014
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "unittest_setUpClass_fixture_Test_CompanyOverview",
+    "time" : {
+      "start" : 1611670574904,
+      "stop" : 1611670574904,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "c3a2e3f9db7dd909",
+      "name" : "log",
+      "source" : "c3a2e3f9db7dd909.txt",
+      "type" : "text/plain",
+      "size" : 575
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "unittest_setUpClass_fixture_Test_CompanyOverview::0",
+    "time" : {
+      "start" : 1611670579561,
+      "stop" : 1611670579561,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "@pytest.mark.skipif(False, reason='skipping because flag is set to false in excel')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_search_endpoint"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_CompanyOverview"
+  }, {
+    "name" : "host",
+    "value" : "san-ThinkPad-T480"
+  }, {
+    "name" : "thread",
+    "value" : "291636-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Tests.test_search_endpoint"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "8ebce718f841af8",
+      "status" : "broken",
+      "statusDetails" : "requests.exceptions.ConnectionError: HTTPSConnectionPool(host='www.alphavantage.co', port=443): Max retries exceeded with url: /query?function=SYMBOL_SEARCH&keywords==IBM&apikey= (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7f7c3b3d3d60>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))",
+      "time" : {
+        "start" : 1611670553128,
+        "stop" : 1611670553129,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "4b544d163666c1ab",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611669032013,
+        "stop" : 1611669032414,
+        "duration" : 401
+      }
+    }, {
+      "uid" : "8f7802c260dda0b7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611668902471,
+        "stop" : 1611668903494,
+        "duration" : 1023
+      }
+    }, {
+      "uid" : "f1339f419c3bcfce",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611668800496,
+        "stop" : 1611668800892,
+        "duration" : 396
+      }
+    }, {
+      "uid" : "55e01d6dc234d3c3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611645973414,
+        "stop" : 1611645974436,
+        "duration" : 1022
+      }
+    }, {
+      "uid" : "3d1a1d684383e1bc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611645755037,
+        "stop" : 1611645755543,
+        "duration" : 506
+      }
+    }, {
+      "uid" : "dc684874c0ce73f3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611645679952,
+        "stop" : 1611645680515,
+        "duration" : 563
+      }
+    }, {
+      "uid" : "16ab8bb4018dae07",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611645621471,
+        "stop" : 1611645621766,
+        "duration" : 295
+      }
+    }, {
+      "uid" : "25408d36f733e04",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611645397944,
+        "stop" : 1611645399060,
+        "duration" : 1116
+      }
+    }, {
+      "uid" : "e0196a5a6dbe3f3a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611603934868,
+        "stop" : 1611603935977,
+        "duration" : 1109
+      }
+    }, {
+      "uid" : "16e001af3dd3a9bc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611602504625,
+        "stop" : 1611602505641,
+        "duration" : 1016
+      }
+    }, {
+      "uid" : "e50ac15d12f3a346",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611599806682,
+        "stop" : 1611599807671,
+        "duration" : 989
+      }
+    }, {
+      "uid" : "29185d7219d639e1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611599614114,
+        "stop" : 1611599615153,
+        "duration" : 1039
+      }
+    }, {
+      "uid" : "3ef4de0945f7aacf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611599475176,
+        "stop" : 1611599476192,
+        "duration" : 1016
+      }
+    }, {
+      "uid" : "626dd25aa25eb5ef",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611599347371,
+        "stop" : 1611599348392,
+        "duration" : 1021
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.skipif(False, reason='skipping because flag is set to false in excel')" ]
+  },
+  "source" : "55d1c1a73ad20a98.json",
+  "parameterValues" : [ ]
+}

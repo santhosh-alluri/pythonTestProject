@@ -1,0 +1,103 @@
+{
+  "uid" : "6cd9c9a030812ff7",
+  "name" : "test_time_series_weekly",
+  "fullName" : "Tests.test_time_series_weekly.Test_TimeSeriesWeekly#test_time_series_weekly",
+  "historyId" : "b8e908fa0288d9263dad46fee187466d",
+  "time" : {
+    "start" : 1611671854710,
+    "stop" : 1611671857260,
+    "duration" : 2550
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "unittest_setUpClass_fixture_Test_TimeSeriesWeekly",
+    "time" : {
+      "start" : 1611671854709,
+      "stop" : 1611671854709,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "eaf4a7c2cb7a78dc",
+      "name" : "log",
+      "source" : "eaf4a7c2cb7a78dc.txt",
+      "type" : "text/plain",
+      "size" : 233119
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "unittest_setUpClass_fixture_Test_TimeSeriesWeekly::0",
+    "time" : {
+      "start" : 1611671860939,
+      "stop" : 1611671860939,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "@pytest.mark.skipif(False, reason='skipping because flag is set to false in excel')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_time_series_weekly"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_TimeSeriesWeekly"
+  }, {
+    "name" : "host",
+    "value" : "san-ThinkPad-T480"
+  }, {
+    "name" : "thread",
+    "value" : "294318-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Tests.test_time_series_weekly"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.skipif(False, reason='skipping because flag is set to false in excel')" ]
+  },
+  "source" : "6cd9c9a030812ff7.json",
+  "parameterValues" : [ ]
+}

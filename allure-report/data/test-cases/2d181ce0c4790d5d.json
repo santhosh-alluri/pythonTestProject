@@ -1,0 +1,107 @@
+{
+  "uid" : "2d181ce0c4790d5d",
+  "name" : "test_time_series_daily_invalid_apiToken_and_symbol",
+  "fullName" : "Tests.test_time_series_daily.Test_TimeSeriesDaily#test_time_series_daily_invalid_apiToken_and_symbol",
+  "historyId" : "dd0938765402aa4f7d24f93ec757cdd4",
+  "time" : {
+    "start" : 1611670594621,
+    "stop" : 1611670595646,
+    "duration" : 1025
+  },
+  "status" : "broken",
+  "statusMessage" : "KeyError: 'Error Message'",
+  "statusTrace" : "self = <test_time_series_daily.Test_TimeSeriesDaily testMethod=test_time_series_daily_invalid_apiToken_and_symbol>\n\n    @pytest.mark.skipif(Base.is_testcase_runnable('test_time_series_daily_invalid_apiToken_and_symbol'), reason=\"skipping because flag is set to false in excel\")\n    def test_time_series_daily_invalid_apiToken_and_symbol(self):\n        self.logger.info(\"test_time_series_daily_invalid_symbol started\")\n        url = self.base_url+\"function=TIME_SERIES_DAILY&symbol=wipro&apikey=raft\"\n        self.logger.info(\"url : \" + url)\n        response = requests.get(url)\n        response_json = response.json()\n        self.logger.info(\"response : \" + response.text)\n        # response assertion\n>       self.assertion.assert_equal(response_json['Error Message'],\n                         \"Invalid API call. Please retry or visit the documentation (https://www.alphavantage.co/documentation/) for TIME_SERIES_DAILY.\",\n                         \"response not meeted expected error\" + response_json['Error Message'])\nE       KeyError: 'Error Message'\n\nTests/test_time_series_daily.py:58: KeyError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "unittest_setUpClass_fixture_Test_TimeSeriesDaily",
+    "time" : {
+      "start" : 1611670592807,
+      "stop" : 1611670592807,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "KeyError: 'Error Message'",
+    "statusTrace" : "self = <test_time_series_daily.Test_TimeSeriesDaily testMethod=test_time_series_daily_invalid_apiToken_and_symbol>\n\n    @pytest.mark.skipif(Base.is_testcase_runnable('test_time_series_daily_invalid_apiToken_and_symbol'), reason=\"skipping because flag is set to false in excel\")\n    def test_time_series_daily_invalid_apiToken_and_symbol(self):\n        self.logger.info(\"test_time_series_daily_invalid_symbol started\")\n        url = self.base_url+\"function=TIME_SERIES_DAILY&symbol=wipro&apikey=raft\"\n        self.logger.info(\"url : \" + url)\n        response = requests.get(url)\n        response_json = response.json()\n        self.logger.info(\"response : \" + response.text)\n        # response assertion\n>       self.assertion.assert_equal(response_json['Error Message'],\n                         \"Invalid API call. Please retry or visit the documentation (https://www.alphavantage.co/documentation/) for TIME_SERIES_DAILY.\",\n                         \"response not meeted expected error\" + response_json['Error Message'])\nE       KeyError: 'Error Message'\n\nTests/test_time_series_daily.py:58: KeyError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "169762b55fbd7d7c",
+      "name" : "log",
+      "source" : "169762b55fbd7d7c.txt",
+      "type" : "text/plain",
+      "size" : 541
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "unittest_setUpClass_fixture_Test_TimeSeriesDaily::0",
+    "time" : {
+      "start" : 1611670600669,
+      "stop" : 1611670600669,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "@pytest.mark.skipif(False, reason='skipping because flag is set to false in excel')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_time_series_daily"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_TimeSeriesDaily"
+  }, {
+    "name" : "host",
+    "value" : "san-ThinkPad-T480"
+  }, {
+    "name" : "thread",
+    "value" : "291647-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Tests.test_time_series_daily"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.skipif(False, reason='skipping because flag is set to false in excel')" ]
+  },
+  "source" : "2d181ce0c4790d5d.json",
+  "parameterValues" : [ ]
+}

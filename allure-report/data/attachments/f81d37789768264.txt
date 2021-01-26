@@ -1,0 +1,5 @@
+[32mINFO    [0m root:test_time_series_weekly.py:74 test_time_series_daily_invalid_symbol started
+[32mINFO    [0m root:test_time_series_weekly.py:76 url : https://www.alphavantage.co/query?function=TIME_SERIES_WEEKLY&symbol=&apikey=0S5QXIPXLA3EYXH5
+[32mINFO    [0m root:test_time_series_weekly.py:79 response : {
+    "Note": "Thank you for using Alpha Vantage! Our standard API call frequency is 5 calls per minute and 500 calls per day. Please visit https://www.alphavantage.co/premium/ if you would like to target a higher API call frequency."
+}

@@ -1,0 +1,289 @@
+{
+  "uid" : "1347aafbb624e80b",
+  "name" : "test_time_series_weekly_without_apikey_parameter",
+  "fullName" : "Tests.test_time_series_weekly.Test_TimeSeriesWeekly#test_time_series_weekly_without_apikey_parameter",
+  "historyId" : "10a05eb5a7674adaa64da6a130bcbc09",
+  "time" : {
+    "start" : 1611671976253,
+    "stop" : 1611671977271,
+    "duration" : 1018
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "unittest_setUpClass_fixture_Test_TimeSeriesWeekly",
+    "time" : {
+      "start" : 1611671971454,
+      "stop" : 1611671971455,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "ccb8d40b860899d1",
+      "name" : "log",
+      "source" : "ccb8d40b860899d1.txt",
+      "type" : "text/plain",
+      "size" : 589
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "unittest_setUpClass_fixture_Test_TimeSeriesWeekly::0",
+    "time" : {
+      "start" : 1611671978398,
+      "stop" : 1611671978399,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "@pytest.mark.skipif(False, reason='skipping because flag is set to false in excel')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_time_series_weekly"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_TimeSeriesWeekly"
+  }, {
+    "name" : "host",
+    "value" : "san-ThinkPad-T480"
+  }, {
+    "name" : "thread",
+    "value" : "295169-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Tests.test_time_series_weekly"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "5ee32b5ce795f852",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: skipping because flag is set to false in excel",
+      "time" : {
+        "start" : 1611671879341,
+        "stop" : 1611671879341,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "cefa9d7d3c7723b6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611671859514,
+        "stop" : 1611671860543,
+        "duration" : 1029
+      }
+    }, {
+      "uid" : "36372b10248d6acd",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: skipping because flag is set to false in excel",
+      "time" : {
+        "start" : 1611671758836,
+        "stop" : 1611671758836,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "85473231c0574c3f",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: skipping because flag is set to false in excel",
+      "time" : {
+        "start" : 1611671710868,
+        "stop" : 1611671710868,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "68f433b4f16e315d",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: skipping because flag is set to false in excel",
+      "time" : {
+        "start" : 1611671655000,
+        "stop" : 1611671655000,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "1d286b53003e8542",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611671303865,
+        "stop" : 1611671304174,
+        "duration" : 309
+      }
+    }, {
+      "uid" : "3b5153e1c3263822",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: skipping because flag is set to false in excel",
+      "time" : {
+        "start" : 1611671170847,
+        "stop" : 1611671170847,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "f6f7ee9a1c96bbbf",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: skipping because flag is set to false in excel",
+      "time" : {
+        "start" : 1611671155484,
+        "stop" : 1611671155484,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "3156c40084ae66d7",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: skipping because flag is set to false in excel",
+      "time" : {
+        "start" : 1611671088520,
+        "stop" : 1611671088520,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "e3ddcf568b894bce",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: skipping because flag is set to false in excel",
+      "time" : {
+        "start" : 1611670836096,
+        "stop" : 1611670836096,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "b7719f25ae4ba791",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611646346466,
+        "stop" : 1611646347484,
+        "duration" : 1018
+      }
+    }, {
+      "uid" : "10a4d174be186727",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611646170246,
+        "stop" : 1611646170522,
+        "duration" : 276
+      }
+    }, {
+      "uid" : "7df0f30f35ef681c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611646107378,
+        "stop" : 1611646108379,
+        "duration" : 1001
+      }
+    }, {
+      "uid" : "ed3aac40cd0ec680",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611645196398,
+        "stop" : 1611645199061,
+        "duration" : 2663
+      }
+    }, {
+      "uid" : "13d07cddab60e234",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611644804321,
+        "stop" : 1611644804720,
+        "duration" : 399
+      }
+    }, {
+      "uid" : "38ebd21f72df8873",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611644708278,
+        "stop" : 1611644709281,
+        "duration" : 1003
+      }
+    }, {
+      "uid" : "86b4737fa0f638b9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611604109223,
+        "stop" : 1611604110270,
+        "duration" : 1047
+      }
+    }, {
+      "uid" : "a61995eefeda9aa8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611602512215,
+        "stop" : 1611602512607,
+        "duration" : 392
+      }
+    }, {
+      "uid" : "53451f45123a566d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611599812511,
+        "stop" : 1611599813509,
+        "duration" : 998
+      }
+    }, {
+      "uid" : "125c41fd0bec857e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611595452011,
+        "stop" : 1611595453018,
+        "duration" : 1007
+      }
+    }, {
+      "uid" : "b326ec4e781979b1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611595319422,
+        "stop" : 1611595320392,
+        "duration" : 970
+      }
+    }, {
+      "uid" : "d59cde30fb17ceeb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611594084784,
+        "stop" : 1611594085139,
+        "duration" : 355
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.skipif(False, reason='skipping because flag is set to false in excel')" ]
+  },
+  "source" : "1347aafbb624e80b.json",
+  "parameterValues" : [ ]
+}

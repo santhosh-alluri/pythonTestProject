@@ -1,0 +1,165 @@
+{
+  "uid" : "33a00e7e0b89230b",
+  "name" : "test_global_quote_invalid_apiToken_and_symbol",
+  "fullName" : "Tests.test_global_quote.Test_GlobalQuote#test_global_quote_invalid_apiToken_and_symbol",
+  "historyId" : "1962a651dee460323636c2ffa05978ec",
+  "time" : {
+    "start" : 1611670451618,
+    "stop" : 1611670452848,
+    "duration" : 1230
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "unittest_setUpClass_fixture_Test_GlobalQuote",
+    "time" : {
+      "start" : 1611670450053,
+      "stop" : 1611670450053,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "ba0ca1ea5ef9c5f9",
+      "name" : "log",
+      "source" : "ba0ca1ea5ef9c5f9.txt",
+      "type" : "text/plain",
+      "size" : 402
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "unittest_setUpClass_fixture_Test_GlobalQuote::0",
+    "time" : {
+      "start" : 1611670455708,
+      "stop" : 1611670455708,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "@pytest.mark.skipif(False, reason='skipping because flag is set to false in excel')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_global_quote"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_GlobalQuote"
+  }, {
+    "name" : "host",
+    "value" : "san-ThinkPad-T480"
+  }, {
+    "name" : "thread",
+    "value" : "291487-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Tests.test_global_quote"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "7c6cd5bd78e865b8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611646088117,
+        "stop" : 1611646089343,
+        "duration" : 1226
+      }
+    }, {
+      "uid" : "997f232bf2c8a63b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611645582096,
+        "stop" : 1611645583267,
+        "duration" : 1171
+      }
+    }, {
+      "uid" : "9315aa5ea879ea7b",
+      "status" : "broken",
+      "statusDetails" : "TypeError: assert_equal() got an unexpected keyword argument 'msg'",
+      "time" : {
+        "start" : 1611645535237,
+        "stop" : 1611645536533,
+        "duration" : 1296
+      }
+    }, {
+      "uid" : "262f699894aba325",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611603797236,
+        "stop" : 1611603798354,
+        "duration" : 1118
+      }
+    }, {
+      "uid" : "3d9c9f6c30c429f8",
+      "status" : "broken",
+      "statusDetails" : "KeyError: 'Global Quote'",
+      "time" : {
+        "start" : 1611603775121,
+        "stop" : 1611603776133,
+        "duration" : 1012
+      }
+    }, {
+      "uid" : "19418ab8b3da5dd3",
+      "status" : "broken",
+      "statusDetails" : "KeyError: 'Global Quote'",
+      "time" : {
+        "start" : 1611602498386,
+        "stop" : 1611602499396,
+        "duration" : 1010
+      }
+    }, {
+      "uid" : "35f546396c473dad",
+      "status" : "broken",
+      "statusDetails" : "KeyError: 'Global Quote'",
+      "time" : {
+        "start" : 1611599800615,
+        "stop" : 1611599800909,
+        "duration" : 294
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.skipif(False, reason='skipping because flag is set to false in excel')" ]
+  },
+  "source" : "33a00e7e0b89230b.json",
+  "parameterValues" : [ ]
+}

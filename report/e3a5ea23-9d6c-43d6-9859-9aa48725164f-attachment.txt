@@ -1,0 +1,2 @@
+[32mINFO    [0m root:test_search_endpoint.py:85 test_time_series_daily_invalid_symbol started
+[32mINFO    [0m root:test_search_endpoint.py:87 url : https://www.alphavantage.co/query?function=SYMBOL_SEARCH&keywords==IBM&apikey=

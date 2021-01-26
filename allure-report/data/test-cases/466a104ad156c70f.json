@@ -1,0 +1,408 @@
+{
+  "uid" : "466a104ad156c70f",
+  "name" : "test_company_overview",
+  "fullName" : "Tests.test_company_overview.Test_CompanyOverview#test_company_overview",
+  "historyId" : "5ccb5911223bd14f7dd4b1c66a495591",
+  "time" : {
+    "start" : 1611670358436,
+    "stop" : 1611670359664,
+    "duration" : 1228
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "unittest_setUpClass_fixture_Test_CompanyOverview",
+    "time" : {
+      "start" : 1611670358436,
+      "stop" : 1611670358436,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "14f7b881739a1559",
+      "name" : "log",
+      "source" : "14f7b881739a1559.txt",
+      "type" : "text/plain",
+      "size" : 4256
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "unittest_setUpClass_fixture_Test_CompanyOverview::0",
+    "time" : {
+      "start" : 1611670363247,
+      "stop" : 1611670363247,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "@pytest.mark.skipif(False, reason='skipping because flag is set to false in excel')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_company_overview"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_CompanyOverview"
+  }, {
+    "name" : "host",
+    "value" : "san-ThinkPad-T480"
+  }, {
+    "name" : "thread",
+    "value" : "291421-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Tests.test_company_overview"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "4474be160b7217e5",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: skipping because flag is set to false in excel",
+      "time" : {
+        "start" : 1611669793148,
+        "stop" : 1611669793148,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "7aca0c88df63ee9b",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: skipping because flag is set to false in excel",
+      "time" : {
+        "start" : 1611669739816,
+        "stop" : 1611669739816,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "4b09954db19aaf43",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611669646355,
+        "stop" : 1611669647559,
+        "duration" : 1204
+      }
+    }, {
+      "uid" : "7845fcf2b8b0b857",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: skipping because flag is set to false in excel",
+      "time" : {
+        "start" : 1611669629157,
+        "stop" : 1611669629157,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "ab20dcfd8fd015e",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: skipping because flag is set to false in excel",
+      "time" : {
+        "start" : 1611669586405,
+        "stop" : 1611669586405,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "87e8bdc1a98e6457",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611669550345,
+        "stop" : 1611669551416,
+        "duration" : 1071
+      }
+    }, {
+      "uid" : "a9b0a123064dd0b6",
+      "status" : "broken",
+      "statusDetails" : "KeyError: 'Symbol'",
+      "time" : {
+        "start" : 1611669519448,
+        "stop" : 1611669520473,
+        "duration" : 1025
+      }
+    }, {
+      "uid" : "c3c1b232fa401a6a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611669502717,
+        "stop" : 1611669503182,
+        "duration" : 465
+      }
+    }, {
+      "uid" : "66bffea3e5e71517",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'Test_CompanyOverview' object has no attribute 'is_testcase_runnable'",
+      "time" : {
+        "start" : 1611669475056,
+        "stop" : 1611669475056,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "20214167aef53a06",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'Test_CompanyOverview' object has no attribute 'is_testcase_runnable'",
+      "time" : {
+        "start" : 1611669385814,
+        "stop" : 1611669385814,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "8ce6c983eb3a4442",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'Test_CompanyOverview' object has no attribute 'is_testcase_runnable'",
+      "time" : {
+        "start" : 1611669180460,
+        "stop" : 1611669180460,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "fa9b52c46fd273dd",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'Test_CompanyOverview' object has no attribute 'is_testcase_runnable'",
+      "time" : {
+        "start" : 1611669025662,
+        "stop" : 1611669025663,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "c66898d5596ddf3c",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: skipping because flag is set to false in excel",
+      "time" : {
+        "start" : 1611668896075,
+        "stop" : 1611668896075,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "e1b01f2ee9a2cc8d",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'Test_CompanyOverview' object has no attribute 'is_testcase_runnable'",
+      "time" : {
+        "start" : 1611668768395,
+        "stop" : 1611668768395,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "88a2d7f758baf5f5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611645965430,
+        "stop" : 1611645966566,
+        "duration" : 1136
+      }
+    }, {
+      "uid" : "f35b8be886037112",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611645747908,
+        "stop" : 1611645749296,
+        "duration" : 1388
+      }
+    }, {
+      "uid" : "bed37ae7fd0dd1ef",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: ++++ soft assert failure details follow below ++++\n\n++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++\nThe following failure was found in \"test_company_overview\" (test_company_overview.Test_CompanyOverview):\n+----------------------+----------------------+----------------------+\nTraceback (most recent call last):\n  File \"/home/san/PycharmProjects/pythonTestProject/Lib/Assertions.py\", line 5, in assert_equal\n    self.soft_assert(self.assertEqual, actual, expected,\n  File \"/home/san/PycharmProjects/pythonTestProject/Tests/test_company_overview.py\", line 23, in test_company_overview\n    self.assertion.assert_equal(response.status_code, 201 ,\"Expected status code is 200 but found \"+str(response.status_code))\n  File \"/home/san/.local/lib/python3.8/site-packages/softest/case.py\", line 62, in soft_assert\n    assert_method(*arguments, **keywords)\n  File \"/usr/lib/python3.8/unittest/case.py\", line 912, in assertEqual\n    assertion_func(first, second, msg=msg)\n  File \"/usr/lib/python3.8/unittest/case.py\", line 905, in _baseAssertEqual\n    raise self.failureException(msg)\nAssertionError: 200 != 201 : Expected status code is 200 but found 200\n\n-+ [1/1] +-",
+      "time" : {
+        "start" : 1611645672420,
+        "stop" : 1611645673488,
+        "duration" : 1068
+      }
+    }, {
+      "uid" : "673cb90e3bafa44a",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: ++++ soft assert failure details follow below ++++\n\n++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++\nThe following failure was found in \"test_company_overview\" (test_company_overview.Test_CompanyOverview):\n+----------------------+----------------------+----------------------+\nTraceback (most recent call last):\n  File \"/home/san/PycharmProjects/pythonTestProject/Lib/Assertions.py\", line 5, in assert_equal\n    self.soft_assert(self.assertEqual, actual, expected,\n  File \"/home/san/PycharmProjects/pythonTestProject/Tests/test_company_overview.py\", line 24, in test_company_overview\n    self.assertion.assert_equal(response.status_code, 201 ,\"Expected status code is 200 but found \"+str(response.status_code))\n  File \"/home/san/.local/lib/python3.8/site-packages/softest/case.py\", line 62, in soft_assert\n    assert_method(*arguments, **keywords)\n  File \"/usr/lib/python3.8/unittest/case.py\", line 912, in assertEqual\n    assertion_func(first, second, msg=msg)\n  File \"/usr/lib/python3.8/unittest/case.py\", line 905, in _baseAssertEqual\n    raise self.failureException(msg)\nAssertionError: 200 != 201 : Expected status code is 200 but found 200\n\n-+ [1/1] +-",
+      "time" : {
+        "start" : 1611645613588,
+        "stop" : 1611645614824,
+        "duration" : 1236
+      }
+    }, {
+      "uid" : "19a146a50eb4dd96",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: ++++ soft assert failure details follow below ++++\n\n++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++\nThe following failure was found in \"test_company_overview\" (test_company_overview.Test_CompanyOverview):\n+----------------------+----------------------+----------------------+\nTraceback (most recent call last):\n  File \"/home/san/PycharmProjects/pythonTestProject/Lib/Assertions.py\", line 5, in assert_equal\n    self.soft_assert(self.assertEqual, actual, expected,\n  File \"/home/san/PycharmProjects/pythonTestProject/Tests/test_company_overview.py\", line 24, in test_company_overview\n    self.assertion.assert_equal(response.status_code, 201 ,\"Expected status code is 200 but found \"+str(response.status_code))\n  File \"/home/san/.local/lib/python3.8/site-packages/softest/case.py\", line 62, in soft_assert\n    assert_method(*arguments, **keywords)\n  File \"/usr/lib/python3.8/unittest/case.py\", line 912, in assertEqual\n    assertion_func(first, second, msg=msg)\n  File \"/usr/lib/python3.8/unittest/case.py\", line 905, in _baseAssertEqual\n    raise self.failureException(msg)\nAssertionError: 200 != 201 : Expected status code is 200 but found 200\n\n-+ [1/1] +-",
+      "time" : {
+        "start" : 1611644590597,
+        "stop" : 1611644591744,
+        "duration" : 1147
+      }
+    }, {
+      "uid" : "a41c4f98251eef36",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611644577853,
+        "stop" : 1611644579134,
+        "duration" : 1281
+      }
+    }, {
+      "uid" : "42fed44307a9e876",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'Assertion' object has no attribute 'soft_assert'",
+      "time" : {
+        "start" : 1611644518265,
+        "stop" : 1611644520415,
+        "duration" : 2150
+      }
+    }, {
+      "uid" : "77cffa6063f8f5cf",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'Assertion' object has no attribute 'assertEqual'",
+      "time" : {
+        "start" : 1611644467050,
+        "stop" : 1611644468444,
+        "duration" : 1394
+      }
+    }, {
+      "uid" : "755553c40ed3161f",
+      "status" : "broken",
+      "statusDetails" : "TypeError: test_company_overview() missing 1 required positional argument: 'setup'",
+      "time" : {
+        "start" : 1611644447396,
+        "stop" : 1611644447396,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "908bc3826ac20349",
+      "status" : "broken",
+      "statusDetails" : "TypeError: test_company_overview() missing 1 required positional argument: 'setup'",
+      "time" : {
+        "start" : 1611643856006,
+        "stop" : 1611643856006,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "1b2473c85e3fcb0d",
+      "status" : "broken",
+      "statusDetails" : "TypeError: test_company_overview() missing 1 required positional argument: 'setup'",
+      "time" : {
+        "start" : 1611643709369,
+        "stop" : 1611643709369,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "2518c34a1b8db543",
+      "status" : "broken",
+      "statusDetails" : "TypeError: test_company_overview() missing 1 required positional argument: 'setup'",
+      "time" : {
+        "start" : 1611643595636,
+        "stop" : 1611643595636,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "4c0f93e36efb36a6",
+      "status" : "broken",
+      "statusDetails" : "TypeError: test_company_overview() missing 1 required positional argument: 'pre_setup'",
+      "time" : {
+        "start" : 1611643491454,
+        "stop" : 1611643491454,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "355688d118d722d",
+      "status" : "broken",
+      "statusDetails" : "TypeError: test_company_overview() missing 1 required positional argument: 'pre_setup'",
+      "time" : {
+        "start" : 1611643313841,
+        "stop" : 1611643313841,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "cdc28422a69e08d5",
+      "status" : "broken",
+      "statusDetails" : "NameError: name 'assertion' is not defined",
+      "time" : {
+        "start" : 1611643025974,
+        "stop" : 1611643027338,
+        "duration" : 1364
+      }
+    }, {
+      "uid" : "29391cff65ed4765",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611603736298,
+        "stop" : 1611603737440,
+        "duration" : 1142
+      }
+    }, {
+      "uid" : "3659ce16ef30a9bb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611603633855,
+        "stop" : 1611603635228,
+        "duration" : 1373
+      }
+    }, {
+      "uid" : "e06521d2cc538723",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611602493093,
+        "stop" : 1611602494297,
+        "duration" : 1204
+      }
+    }, {
+      "uid" : "b3db1d8492ada603",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611599793910,
+        "stop" : 1611599795191,
+        "duration" : 1281
+      }
+    }, {
+      "uid" : "891f5a361b509d3d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611598372305,
+        "stop" : 1611598373549,
+        "duration" : 1244
+      }
+    }, {
+      "uid" : "d28ab0b75febb43",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611598315474,
+        "stop" : 1611598316649,
+        "duration" : 1175
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.skipif(False, reason='skipping because flag is set to false in excel')" ]
+  },
+  "source" : "466a104ad156c70f.json",
+  "parameterValues" : [ ]
+}

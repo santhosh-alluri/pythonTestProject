@@ -1,0 +1,104 @@
+{
+  "uid" : "2ec787ad43d7427",
+  "name" : "test_time_series_weekly",
+  "fullName" : "Tests.test_time_series_weekly.Test_TimeSeriesWeekly#test_time_series_weekly",
+  "historyId" : "b8e908fa0288d9263dad46fee187466d",
+  "time" : {
+    "start" : 1611646105003,
+    "stop" : 1611646105312,
+    "duration" : 309
+  },
+  "status" : "broken",
+  "statusMessage" : "KeyError: 'Meta Data'",
+  "statusTrace" : "self = <test_time_series_weekly.Test_TimeSeriesWeekly testMethod=test_time_series_weekly>\n\n    def test_time_series_weekly(self):\n        self.logger.info(\"test started\")\n        url = self.base_url+\"function=TIME_SERIES_WEEKLY&symbol=\"+self.symbol+\"&apikey=\"+self.apiKey\n        self.logger.info(\"url : \" + url)\n        response = requests.get(url)\n        response_json = response.json()\n    \n        self.logger.info(\"response : \"+ response.text)\n    \n        # verify status code\n        self.assertion.assert_equal(response.status_code, 200,\"Expected status code is 200 but found \"+str(response.status_code))\n    \n        # header validation\n        self.soft_assert(self.assertEqual, response.headers.get('Content-Type'), \"application/json\",\n                         msg=\"Expected Content-Type is application/json but found \"+ response.headers.get('Content-Type'))\n    \n        # symbol validation\n>       self.soft_assert(self.assertEqual, response_json['Meta Data']['2. Symbol'] , \"IBM\",\n                         msg=\"Expected symbol is IBM but found \"+ response_json['Meta Data']['2. Symbol'])\nE       KeyError: 'Meta Data'\n\nTests/test_time_series_weekly.py:29: KeyError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "unittest_setUpClass_fixture_Test_TimeSeriesWeekly",
+    "time" : {
+      "start" : 1611646105002,
+      "stop" : 1611646105002,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "KeyError: 'Meta Data'",
+    "statusTrace" : "self = <test_time_series_weekly.Test_TimeSeriesWeekly testMethod=test_time_series_weekly>\n\n    def test_time_series_weekly(self):\n        self.logger.info(\"test started\")\n        url = self.base_url+\"function=TIME_SERIES_WEEKLY&symbol=\"+self.symbol+\"&apikey=\"+self.apiKey\n        self.logger.info(\"url : \" + url)\n        response = requests.get(url)\n        response_json = response.json()\n    \n        self.logger.info(\"response : \"+ response.text)\n    \n        # verify status code\n        self.assertion.assert_equal(response.status_code, 200,\"Expected status code is 200 but found \"+str(response.status_code))\n    \n        # header validation\n        self.soft_assert(self.assertEqual, response.headers.get('Content-Type'), \"application/json\",\n                         msg=\"Expected Content-Type is application/json but found \"+ response.headers.get('Content-Type'))\n    \n        # symbol validation\n>       self.soft_assert(self.assertEqual, response_json['Meta Data']['2. Symbol'] , \"IBM\",\n                         msg=\"Expected symbol is IBM but found \"+ response_json['Meta Data']['2. Symbol'])\nE       KeyError: 'Meta Data'\n\nTests/test_time_series_weekly.py:29: KeyError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "cb338ca011e6727",
+      "name" : "log",
+      "source" : "cb338ca011e6727.txt",
+      "type" : "text/plain",
+      "size" : 522
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "unittest_setUpClass_fixture_Test_TimeSeriesWeekly::0",
+    "time" : {
+      "start" : 1611646108698,
+      "stop" : 1611646108698,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "Tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_time_series_weekly"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_TimeSeriesWeekly"
+  }, {
+    "name" : "host",
+    "value" : "san-ThinkPad-T480"
+  }, {
+    "name" : "thread",
+    "value" : "268715-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Tests.test_time_series_weekly"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2ec787ad43d7427.json",
+  "parameterValues" : [ ]
+}

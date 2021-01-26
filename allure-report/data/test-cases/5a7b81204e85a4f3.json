@@ -1,0 +1,181 @@
+{
+  "uid" : "5a7b81204e85a4f3",
+  "name" : "test_global_quote_without_symbol_parameter",
+  "fullName" : "Tests.test_global_quote.Test_GlobalQuote#test_global_quote_without_symbol_parameter",
+  "historyId" : "b625d0959969e1fdba1e54a9f3077f5a",
+  "time" : {
+    "start" : 1611670454689,
+    "stop" : 1611670455708,
+    "duration" : 1019
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "unittest_setUpClass_fixture_Test_GlobalQuote",
+    "time" : {
+      "start" : 1611670450053,
+      "stop" : 1611670450053,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "2ca0fba0d50e11a9",
+      "name" : "log",
+      "source" : "2ca0fba0d50e11a9.txt",
+      "type" : "text/plain",
+      "size" : 530
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "unittest_setUpClass_fixture_Test_GlobalQuote::0",
+    "time" : {
+      "start" : 1611670455708,
+      "stop" : 1611670455708,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "@pytest.mark.skipif(False, reason='skipping because flag is set to false in excel')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_global_quote"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_GlobalQuote"
+  }, {
+    "name" : "host",
+    "value" : "san-ThinkPad-T480"
+  }, {
+    "name" : "thread",
+    "value" : "291487-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Tests.test_global_quote"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "50da09a78b7e5ba5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611646090148,
+        "stop" : 1611646091183,
+        "duration" : 1035
+      }
+    }, {
+      "uid" : "ab2b015fde746f74",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611645585526,
+        "stop" : 1611645586458,
+        "duration" : 932
+      }
+    }, {
+      "uid" : "2b440535c7d4bcc8",
+      "status" : "broken",
+      "statusDetails" : "TypeError: assert_equal() got an unexpected keyword argument 'msg'",
+      "time" : {
+        "start" : 1611645538956,
+        "stop" : 1611645539459,
+        "duration" : 503
+      }
+    }, {
+      "uid" : "de8ed3c95ecb8943",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611603799905,
+        "stop" : 1611603800920,
+        "duration" : 1015
+      }
+    }, {
+      "uid" : "e69da47f13d65324",
+      "status" : "broken",
+      "statusDetails" : "KeyError: 'Error Message'",
+      "time" : {
+        "start" : 1611603777677,
+        "stop" : 1611603778673,
+        "duration" : 996
+      }
+    }, {
+      "uid" : "ae4433c961f687ae",
+      "status" : "broken",
+      "statusDetails" : "KeyError: 'Error Message'",
+      "time" : {
+        "start" : 1611602501451,
+        "stop" : 1611602502429,
+        "duration" : 978
+      }
+    }, {
+      "uid" : "a52754627e50dc70",
+      "status" : "broken",
+      "statusDetails" : "KeyError: 'Error Message'",
+      "time" : {
+        "start" : 1611599802250,
+        "stop" : 1611599803370,
+        "duration" : 1120
+      }
+    }, {
+      "uid" : "86852d182cdbda5f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611597545315,
+        "stop" : 1611597546296,
+        "duration" : 981
+      }
+    }, {
+      "uid" : "a38bde4dba60f706",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611597312006,
+        "stop" : 1611597312342,
+        "duration" : 336
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.skipif(False, reason='skipping because flag is set to false in excel')" ]
+  },
+  "source" : "5a7b81204e85a4f3.json",
+  "parameterValues" : [ ]
+}

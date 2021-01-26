@@ -1,0 +1,6 @@
+[32mINFO    [0m root:test_time_series_weekly.py:61 test_time_series_daily_invalid_symbol started
+[32mINFO    [0m root:test_time_series_weekly.py:63 url : https://www.alphavantage.co/query?function=TIME_SERIES_WEEKLY&symbol=wipro&apikey=raft
+[32mINFO    [0m root:test_time_series_weekly.py:66 response : {
+    "Error Message": "Invalid API call. Please retry or visit the documentation (https://www.alphavantage.co/documentation/) for TIME_SERIES_WEEKLY."
+}
+[32mINFO    [0m root:test_time_series_weekly.py:71 test_time_series_daily_invalid_symbol ended

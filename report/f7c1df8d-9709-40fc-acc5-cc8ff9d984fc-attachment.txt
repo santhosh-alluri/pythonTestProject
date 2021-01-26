@@ -1,0 +1,5 @@
+[32mINFO    [0m root:test_global_quote.py:60 test_time_series_daily_invalid_symbol started
+[32mINFO    [0m root:test_global_quote.py:62 url : https://www.alphavantage.co/query?function=GLOBAL_QUOTE&symbol=wipro&apikey=raft
+[32mINFO    [0m root:test_global_quote.py:65 response : {
+    "Global Quote": {}
+}

@@ -1,0 +1,6 @@
+[32mINFO    [0m root:test_time_series_weekly.py:89 test_time_series_daily_invalid_symbol started
+[32mINFO    [0m root:test_time_series_weekly.py:91 url : https://www.alphavantage.co/query?function=TIME_SERIES_WEEKLY&symbol=IBM&apikey=
+[32mINFO    [0m root:test_time_series_weekly.py:94 response : {
+    "Error Message": "the parameter apikey is invalid or missing. Please claim your free API key on (https://www.alphavantage.co/support/#api-key). It should take less than 20 seconds."
+}
+[32mINFO    [0m root:test_time_series_weekly.py:99 test_time_series_daily_invalid_symbol ended

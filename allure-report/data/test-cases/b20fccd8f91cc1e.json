@@ -1,0 +1,391 @@
+{
+  "uid" : "b20fccd8f91cc1e",
+  "name" : "test_company_overview_without_symbol_parameter",
+  "fullName" : "Tests.test_company_overview.Test_CompanyOverview#test_company_overview_without_symbol_parameter",
+  "historyId" : "77c348c1a49e652963e043d84dbebfb1",
+  "time" : {
+    "start" : 1611670362937,
+    "stop" : 1611670363245,
+    "duration" : 308
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "unittest_setUpClass_fixture_Test_CompanyOverview",
+    "time" : {
+      "start" : 1611670358436,
+      "stop" : 1611670358436,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "2e14324bf703bd69",
+      "name" : "log",
+      "source" : "2e14324bf703bd69.txt",
+      "type" : "text/plain",
+      "size" : 538
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "unittest_setUpClass_fixture_Test_CompanyOverview::0",
+    "time" : {
+      "start" : 1611670363247,
+      "stop" : 1611670363247,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "@pytest.mark.skipif(False, reason='skipping because flag is set to false in excel')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_company_overview"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_CompanyOverview"
+  }, {
+    "name" : "host",
+    "value" : "san-ThinkPad-T480"
+  }, {
+    "name" : "thread",
+    "value" : "291421-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Tests.test_company_overview"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "990ef4c524603eec",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: skipping because flag is set to false in excel",
+      "time" : {
+        "start" : 1611669793153,
+        "stop" : 1611669793153,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "dc1410c601bfb467",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: skipping because flag is set to false in excel",
+      "time" : {
+        "start" : 1611669740951,
+        "stop" : 1611669740951,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "574f758dcbe20beb",
+      "status" : "broken",
+      "statusDetails" : "KeyError: 'Error Message'",
+      "time" : {
+        "start" : 1611669650832,
+        "stop" : 1611669651853,
+        "duration" : 1021
+      }
+    }, {
+      "uid" : "34e80d92392a41e4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611669632398,
+        "stop" : 1611669633367,
+        "duration" : 969
+      }
+    }, {
+      "uid" : "71f4283fabb44201",
+      "status" : "broken",
+      "statusDetails" : "KeyError: 'Error Message'",
+      "time" : {
+        "start" : 1611669589699,
+        "stop" : 1611669590724,
+        "duration" : 1025
+      }
+    }, {
+      "uid" : "1bc96f336b01a565",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611669553865,
+        "stop" : 1611669554268,
+        "duration" : 403
+      }
+    }, {
+      "uid" : "ef07177ee1fab38c",
+      "status" : "broken",
+      "statusDetails" : "KeyError: 'Error Message'",
+      "time" : {
+        "start" : 1611669522932,
+        "stop" : 1611669523342,
+        "duration" : 410
+      }
+    }, {
+      "uid" : "2e96af42017977f5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611669505737,
+        "stop" : 1611669506754,
+        "duration" : 1017
+      }
+    }, {
+      "uid" : "a542d2ca434e877f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611669478499,
+        "stop" : 1611669479510,
+        "duration" : 1011
+      }
+    }, {
+      "uid" : "5c69ca344976a60d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611669389202,
+        "stop" : 1611669390217,
+        "duration" : 1015
+      }
+    }, {
+      "uid" : "efccd2976f16a679",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611669183871,
+        "stop" : 1611669184893,
+        "duration" : 1022
+      }
+    }, {
+      "uid" : "b892f9d75d94c457",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611669028931,
+        "stop" : 1611669029243,
+        "duration" : 312
+      }
+    }, {
+      "uid" : "163464daee450dd7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611668899410,
+        "stop" : 1611668900424,
+        "duration" : 1014
+      }
+    }, {
+      "uid" : "59e07da896666f1a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611668777665,
+        "stop" : 1611668787368,
+        "duration" : 9703
+      }
+    }, {
+      "uid" : "266742af5b456be",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611645969734,
+        "stop" : 1611645970751,
+        "duration" : 1017
+      }
+    }, {
+      "uid" : "9a0df25f2298c398",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611645752638,
+        "stop" : 1611645753659,
+        "duration" : 1021
+      }
+    }, {
+      "uid" : "93e151224d91a406",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611645676741,
+        "stop" : 1611645677784,
+        "duration" : 1043
+      }
+    }, {
+      "uid" : "bde49150dca4033b",
+      "status" : "broken",
+      "statusDetails" : "TypeError: assert_equal() got an unexpected keyword argument 'msg'",
+      "time" : {
+        "start" : 1611645618115,
+        "stop" : 1611645619209,
+        "duration" : 1094
+      }
+    }, {
+      "uid" : "f55b77f14d21e86",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611644594605,
+        "stop" : 1611644595020,
+        "duration" : 415
+      }
+    }, {
+      "uid" : "ba4ebd4ca6d602e8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611644581999,
+        "stop" : 1611644582412,
+        "duration" : 413
+      }
+    }, {
+      "uid" : "2a82f26bc2ed589b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611644523235,
+        "stop" : 1611644523940,
+        "duration" : 705
+      }
+    }, {
+      "uid" : "9d9e6bf3bfac2303",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611644471834,
+        "stop" : 1611644472813,
+        "duration" : 979
+      }
+    }, {
+      "uid" : "ac0ff4e044394d60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611644451856,
+        "stop" : 1611644453708,
+        "duration" : 1852
+      }
+    }, {
+      "uid" : "4b37458fa6a652b3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611643859420,
+        "stop" : 1611643860379,
+        "duration" : 959
+      }
+    }, {
+      "uid" : "319f143934009cc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611643712212,
+        "stop" : 1611643713231,
+        "duration" : 1019
+      }
+    }, {
+      "uid" : "8dfbdfd7b33383f0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611643598346,
+        "stop" : 1611643599307,
+        "duration" : 961
+      }
+    }, {
+      "uid" : "a88096fb9a619dcf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611643494614,
+        "stop" : 1611643495625,
+        "duration" : 1011
+      }
+    }, {
+      "uid" : "7e10a54c910f45b9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611643317350,
+        "stop" : 1611643318492,
+        "duration" : 1142
+      }
+    }, {
+      "uid" : "e861761767e2597c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611643030580,
+        "stop" : 1611643031659,
+        "duration" : 1079
+      }
+    }, {
+      "uid" : "8a98c0e564bc743b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611603740097,
+        "stop" : 1611603741223,
+        "duration" : 1126
+      }
+    }, {
+      "uid" : "dc66d8468932c004",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611603638104,
+        "stop" : 1611603638530,
+        "duration" : 426
+      }
+    }, {
+      "uid" : "7488f3a131ea116e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611602496947,
+        "stop" : 1611602497961,
+        "duration" : 1014
+      }
+    }, {
+      "uid" : "f8fc817375e6bf6c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611599798469,
+        "stop" : 1611599799478,
+        "duration" : 1009
+      }
+    }, {
+      "uid" : "dc2f1aac54e29b4c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611598376206,
+        "stop" : 1611598377223,
+        "duration" : 1017
+      }
+    }, {
+      "uid" : "1ebfc7c2dd86c628",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611598320089,
+        "stop" : 1611598321102,
+        "duration" : 1013
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.skipif(False, reason='skipping because flag is set to false in excel')" ]
+  },
+  "source" : "b20fccd8f91cc1e.json",
+  "parameterValues" : [ ]
+}

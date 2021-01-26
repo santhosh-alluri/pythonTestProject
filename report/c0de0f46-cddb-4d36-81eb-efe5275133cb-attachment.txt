@@ -1,0 +1,3 @@
+[32mINFO    [0m root:test_company_overview.py:47 test_time_series_daily_invalid_symbol started
+[32mINFO    [0m root:test_company_overview.py:51 response : {}
+[32mINFO    [0m root:test_company_overview.py:56 test_time_series_daily_invalid_symbol ended

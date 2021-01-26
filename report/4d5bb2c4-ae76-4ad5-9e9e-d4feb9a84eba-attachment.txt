@@ -1,0 +1,6 @@
+[32mINFO    [0m root:test_global_quote.py:82 test_time_series_daily_invalid_symbol started
+[32mINFO    [0m root:test_global_quote.py:84 url : https://www.alphavantage.co/query?function=GLOBAL_QUOTE&symbol=IBM&apikey=
+[32mINFO    [0m root:test_global_quote.py:87 response : {
+    "Error Message": "the parameter apikey is invalid or missing. Please claim your free API key on (https://www.alphavantage.co/support/#api-key). It should take less than 20 seconds."
+}
+[32mINFO    [0m root:test_global_quote.py:92 test_time_series_daily_invalid_symbol ended

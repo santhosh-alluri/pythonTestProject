@@ -1,0 +1,2 @@
+[32mINFO    [0m root:test_search_endpoint.py:11 test started
+[32mINFO    [0m root:test_search_endpoint.py:13 url : https://www.alphavantage.co/query?function=SYMBOL_SEARCH&keywords=IBM&apikey=0S5QXIPXLA3EYXH5

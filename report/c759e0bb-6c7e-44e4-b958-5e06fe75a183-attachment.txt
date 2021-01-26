@@ -1,0 +1,6 @@
+[32mINFO    [0m root:test_search_endpoint.py:61 test_time_series_daily_invalid_symbol started
+[32mINFO    [0m root:test_search_endpoint.py:63 url : https://www.alphavantage.co/query?function=SYMBOL_SEARCH&keywords==wipro&apikey=raft
+[32mINFO    [0m root:test_search_endpoint.py:66 response : {
+    "bestMatches": []
+}
+[32mINFO    [0m root:test_search_endpoint.py:71 test_time_series_daily_invalid_symbol ended

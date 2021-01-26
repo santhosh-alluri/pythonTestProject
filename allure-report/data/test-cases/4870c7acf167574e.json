@@ -1,0 +1,181 @@
+{
+  "uid" : "4870c7acf167574e",
+  "name" : "test_global_quote_invalid_symbol",
+  "fullName" : "Tests.test_global_quote.Test_GlobalQuote#test_global_quote_invalid_symbol",
+  "historyId" : "8ffcd10c126c57f538b3c8dd8e388f84",
+  "time" : {
+    "start" : 1611670452854,
+    "stop" : 1611670453461,
+    "duration" : 607
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "unittest_setUpClass_fixture_Test_GlobalQuote",
+    "time" : {
+      "start" : 1611670450053,
+      "stop" : 1611670450053,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "a2243f4d536cfa3",
+      "name" : "log",
+      "source" : "a2243f4d536cfa3.txt",
+      "type" : "text/plain",
+      "size" : 416
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "unittest_setUpClass_fixture_Test_GlobalQuote::0",
+    "time" : {
+      "start" : 1611670455708,
+      "stop" : 1611670455708,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "@pytest.mark.skipif(False, reason='skipping because flag is set to false in excel')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_global_quote"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_GlobalQuote"
+  }, {
+    "name" : "host",
+    "value" : "san-ThinkPad-T480"
+  }, {
+    "name" : "thread",
+    "value" : "291487-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Tests.test_global_quote"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "c3d10bfa5a18df04",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611646089350,
+        "stop" : 1611646089844,
+        "duration" : 494
+      }
+    }, {
+      "uid" : "942dbf832af23e0c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611645583274,
+        "stop" : 1611645584496,
+        "duration" : 1222
+      }
+    }, {
+      "uid" : "9586988737c5045",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611645536553,
+        "stop" : 1611645537909,
+        "duration" : 1356
+      }
+    }, {
+      "uid" : "d95a09481cce264d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611603798360,
+        "stop" : 1611603798867,
+        "duration" : 507
+      }
+    }, {
+      "uid" : "1b47b1e55b01121f",
+      "status" : "broken",
+      "statusDetails" : "KeyError: 'Global Quote'",
+      "time" : {
+        "start" : 1611603776181,
+        "stop" : 1611603777260,
+        "duration" : 1079
+      }
+    }, {
+      "uid" : "f25ffe0ecd68fd93",
+      "status" : "broken",
+      "statusDetails" : "KeyError: 'Global Quote'",
+      "time" : {
+        "start" : 1611602499450,
+        "stop" : 1611602500402,
+        "duration" : 952
+      }
+    }, {
+      "uid" : "92db65d803e2ace9",
+      "status" : "broken",
+      "statusDetails" : "KeyError: 'Global Quote'",
+      "time" : {
+        "start" : 1611599800958,
+        "stop" : 1611599801236,
+        "duration" : 278
+      }
+    }, {
+      "uid" : "c7e7d7457323803b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611597542960,
+        "stop" : 1611597544181,
+        "duration" : 1221
+      }
+    }, {
+      "uid" : "3e14872acff6ba6d",
+      "status" : "broken",
+      "statusDetails" : "TypeError: can only concatenate str (not \"dict\") to str",
+      "time" : {
+        "start" : 1611597309838,
+        "stop" : 1611597310988,
+        "duration" : 1150
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.skipif(False, reason='skipping because flag is set to false in excel')" ]
+  },
+  "source" : "4870c7acf167574e.json",
+  "parameterValues" : [ ]
+}

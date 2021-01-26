@@ -1,0 +1,104 @@
+{
+  "uid" : "2dc111720102d595",
+  "name" : "test_time_series_weekly",
+  "fullName" : "Tests.test_time_series_weekly.Test_TimeSeriesWeekly#test_time_series_weekly",
+  "historyId" : "b8e908fa0288d9263dad46fee187466d",
+  "time" : {
+    "start" : 1611644799909,
+    "stop" : 1611644802283,
+    "duration" : 2374
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: ++++ soft assert failure details follow below ++++\n\n++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++\nThe following failure was found in \"test_time_series_weekly\" (test_time_series_weekly.Test_TimeSeriesWeekly):\n+----------------------+----------------------+----------------------+\nTraceback (most recent call last):\n  File \"/home/san/PycharmProjects/pythonTestProject/Lib/Assertions.py\", line 5, in assert_equal\n    self.soft_assert(self.assertEqual, actual, expected,\n  File \"/home/san/PycharmProjects/pythonTestProject/Tests/test_time_series_weekly.py\", line 22, in test_time_series_weekly\n    self.assertion.assert_equal(response.status_code, 203,\"Expected status code is 200 but found \"+str(response.status_code))\n  File \"/home/san/.local/lib/python3.8/site-packages/softest/case.py\", line 62, in soft_assert\n    assert_method(*arguments, **keywords)\n  File \"/usr/lib/python3.8/unittest/case.py\", line 912, in assertEqual\n    assertion_func(first, second, msg=msg)\n  File \"/usr/lib/python3.8/unittest/case.py\", line 905, in _baseAssertEqual\n    raise self.failureException(msg)\nAssertionError: 200 != 203 : Expected status code is 200 but found 200\n\n-+ [1/1] +-",
+  "statusTrace" : "self = <test_time_series_weekly.Test_TimeSeriesWeekly testMethod=test_time_series_weekly>\n\n    def test_time_series_weekly(self):\n        self.logger.info(\"test started\")\n        url = self.base_url+\"function=TIME_SERIES_WEEKLY&symbol=\"+self.symbol+\"&apikey=\"+self.apiKey\n        self.logger.info(\"url : \" + url)\n        response = requests.get(url)\n        response_json = response.json()\n    \n        self.logger.info(\"response : \"+ response.text)\n    \n        # verify status code\n        self.assertion.assert_equal(response.status_code, 203,\"Expected status code is 200 but found \"+str(response.status_code))\n    \n        # header validation\n        self.soft_assert(self.assertEqual, response.headers.get('Content-Type'), \"application/json\",\n                         msg=\"Expected Content-Type is application/json but found \"+ response.headers.get('Content-Type'))\n    \n        # symbol validation\n        self.soft_assert(self.assertEqual, response_json['Meta Data']['2. Symbol'] , \"IBM\",\n                         msg=\"Expected symbol is IBM but found \"+ response_json['Meta Data']['2. Symbol'])\n    \n        # response json schema validation\n        path = Path(__file__).parent.parent/\"Config/schema.json\"\n        data = open(path).read()\n        content = json.loads(data)\n        try:\n            validate(instance=response_json, schema=content)\n        except jsonschema.exceptions.ValidationError as ve:\n            self.logger.info(\"error log\")\n            self.soft_assert(self.assertTrue, False,\n                             msg=ve)\n        self.logger.info(\"test ended\")\n>       self.assert_all()\n\nTests/test_time_series_weekly.py:43: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n../../.local/lib/python3.8/site-packages/softest/case.py:139: in assert_all\n    self.fail(''.join(failure_output))\nE   AssertionError: ++++ soft assert failure details follow below ++++\nE   \nE   ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++\nE   The following failure was found in \"test_time_series_weekly\" (test_time_series_weekly.Test_TimeSeriesWeekly):\nE   +----------------------+----------------------+----------------------+\nE   Traceback (most recent call last):\nE     File \"/home/san/PycharmProjects/pythonTestProject/Lib/Assertions.py\", line 5, in assert_equal\nE       self.soft_assert(self.assertEqual, actual, expected,\nE     File \"/home/san/PycharmProjects/pythonTestProject/Tests/test_time_series_weekly.py\", line 22, in test_time_series_weekly\nE       self.assertion.assert_equal(response.status_code, 203,\"Expected status code is 200 but found \"+str(response.status_code))\nE     File \"/home/san/.local/lib/python3.8/site-packages/softest/case.py\", line 62, in soft_assert\nE       assert_method(*arguments, **keywords)\nE     File \"/usr/lib/python3.8/unittest/case.py\", line 912, in assertEqual\nE       assertion_func(first, second, msg=msg)\nE     File \"/usr/lib/python3.8/unittest/case.py\", line 905, in _baseAssertEqual\nE       raise self.failureException(msg)\nE   AssertionError: 200 != 203 : Expected status code is 200 but found 200\nE   \nE   -+ [1/1] +-",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "unittest_setUpClass_fixture_Test_TimeSeriesWeekly",
+    "time" : {
+      "start" : 1611644799908,
+      "stop" : 1611644799908,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: ++++ soft assert failure details follow below ++++\n\n++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++\nThe following failure was found in \"test_time_series_weekly\" (test_time_series_weekly.Test_TimeSeriesWeekly):\n+----------------------+----------------------+----------------------+\nTraceback (most recent call last):\n  File \"/home/san/PycharmProjects/pythonTestProject/Lib/Assertions.py\", line 5, in assert_equal\n    self.soft_assert(self.assertEqual, actual, expected,\n  File \"/home/san/PycharmProjects/pythonTestProject/Tests/test_time_series_weekly.py\", line 22, in test_time_series_weekly\n    self.assertion.assert_equal(response.status_code, 203,\"Expected status code is 200 but found \"+str(response.status_code))\n  File \"/home/san/.local/lib/python3.8/site-packages/softest/case.py\", line 62, in soft_assert\n    assert_method(*arguments, **keywords)\n  File \"/usr/lib/python3.8/unittest/case.py\", line 912, in assertEqual\n    assertion_func(first, second, msg=msg)\n  File \"/usr/lib/python3.8/unittest/case.py\", line 905, in _baseAssertEqual\n    raise self.failureException(msg)\nAssertionError: 200 != 203 : Expected status code is 200 but found 200\n\n-+ [1/1] +-",
+    "statusTrace" : "self = <test_time_series_weekly.Test_TimeSeriesWeekly testMethod=test_time_series_weekly>\n\n    def test_time_series_weekly(self):\n        self.logger.info(\"test started\")\n        url = self.base_url+\"function=TIME_SERIES_WEEKLY&symbol=\"+self.symbol+\"&apikey=\"+self.apiKey\n        self.logger.info(\"url : \" + url)\n        response = requests.get(url)\n        response_json = response.json()\n    \n        self.logger.info(\"response : \"+ response.text)\n    \n        # verify status code\n        self.assertion.assert_equal(response.status_code, 203,\"Expected status code is 200 but found \"+str(response.status_code))\n    \n        # header validation\n        self.soft_assert(self.assertEqual, response.headers.get('Content-Type'), \"application/json\",\n                         msg=\"Expected Content-Type is application/json but found \"+ response.headers.get('Content-Type'))\n    \n        # symbol validation\n        self.soft_assert(self.assertEqual, response_json['Meta Data']['2. Symbol'] , \"IBM\",\n                         msg=\"Expected symbol is IBM but found \"+ response_json['Meta Data']['2. Symbol'])\n    \n        # response json schema validation\n        path = Path(__file__).parent.parent/\"Config/schema.json\"\n        data = open(path).read()\n        content = json.loads(data)\n        try:\n            validate(instance=response_json, schema=content)\n        except jsonschema.exceptions.ValidationError as ve:\n            self.logger.info(\"error log\")\n            self.soft_assert(self.assertTrue, False,\n                             msg=ve)\n        self.logger.info(\"test ended\")\n>       self.assert_all()\n\nTests/test_time_series_weekly.py:43: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n../../.local/lib/python3.8/site-packages/softest/case.py:139: in assert_all\n    self.fail(''.join(failure_output))\nE   AssertionError: ++++ soft assert failure details follow below ++++\nE   \nE   ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++\nE   The following failure was found in \"test_time_series_weekly\" (test_time_series_weekly.Test_TimeSeriesWeekly):\nE   +----------------------+----------------------+----------------------+\nE   Traceback (most recent call last):\nE     File \"/home/san/PycharmProjects/pythonTestProject/Lib/Assertions.py\", line 5, in assert_equal\nE       self.soft_assert(self.assertEqual, actual, expected,\nE     File \"/home/san/PycharmProjects/pythonTestProject/Tests/test_time_series_weekly.py\", line 22, in test_time_series_weekly\nE       self.assertion.assert_equal(response.status_code, 203,\"Expected status code is 200 but found \"+str(response.status_code))\nE     File \"/home/san/.local/lib/python3.8/site-packages/softest/case.py\", line 62, in soft_assert\nE       assert_method(*arguments, **keywords)\nE     File \"/usr/lib/python3.8/unittest/case.py\", line 912, in assertEqual\nE       assertion_func(first, second, msg=msg)\nE     File \"/usr/lib/python3.8/unittest/case.py\", line 905, in _baseAssertEqual\nE       raise self.failureException(msg)\nE   AssertionError: 200 != 203 : Expected status code is 200 but found 200\nE   \nE   -+ [1/1] +-",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "7aaba237bfa1bdbd",
+      "name" : "log",
+      "source" : "7aaba237bfa1bdbd.txt",
+      "type" : "text/plain",
+      "size" : 233119
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "unittest_setUpClass_fixture_Test_TimeSeriesWeekly::0",
+    "time" : {
+      "start" : 1611644805745,
+      "stop" : 1611644805745,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "Tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_time_series_weekly"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_TimeSeriesWeekly"
+  }, {
+    "name" : "host",
+    "value" : "san-ThinkPad-T480"
+  }, {
+    "name" : "thread",
+    "value" : "267330-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Tests.test_time_series_weekly"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2dc111720102d595.json",
+  "parameterValues" : [ ]
+}

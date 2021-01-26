@@ -1,0 +1,5 @@
+[32mINFO    [0m root:test_search_endpoint.py:62 test_time_series_daily_invalid_symbol started
+[32mINFO    [0m root:test_search_endpoint.py:66 response : {
+    "bestMatches": []
+}
+[32mINFO    [0m root:test_search_endpoint.py:71 test_time_series_daily_invalid_symbol ended

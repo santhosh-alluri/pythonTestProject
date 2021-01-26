@@ -1,0 +1,6 @@
+[32mINFO    [0m root:test_global_quote.py:43 test_time_series_daily_invalid_symbol started
+[32mINFO    [0m root:test_global_quote.py:45 url : https://www.alphavantage.co/query?function=GLOBAL_QUOTE&symbol=invalid&apikey=0S5QXIPXLA3EYXH5
+[32mINFO    [0m root:test_global_quote.py:48 response : {
+    "Global Quote": {}
+}
+[32mINFO    [0m root:test_global_quote.py:53 test_time_series_daily_invalid_symbol ended

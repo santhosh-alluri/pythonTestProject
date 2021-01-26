@@ -1,0 +1,104 @@
+{
+  "uid" : "721047894f32f77d",
+  "name" : "test_time_series_weekly",
+  "fullName" : "Tests.test_time_series_weekly.Test_TimeSeriesWeekly#test_time_series_weekly",
+  "historyId" : "b8e908fa0288d9263dad46fee187466d",
+  "time" : {
+    "start" : 1611644703356,
+    "stop" : 1611644705909,
+    "duration" : 2553
+  },
+  "status" : "broken",
+  "statusMessage" : "TypeError: assert_equal() got an unexpected keyword argument 'msg'",
+  "statusTrace" : "self = <test_time_series_weekly.Test_TimeSeriesWeekly testMethod=test_time_series_weekly>\n\n    def test_time_series_weekly(self):\n        self.logger.info(\"test started\")\n        url = self.base_url+\"function=TIME_SERIES_WEEKLY&symbol=\"+self.symbol+\"&apikey=\"+self.apiKey\n        self.logger.info(\"url : \" + url)\n        response = requests.get(url)\n        response_json = response.json()\n    \n        self.logger.info(\"response : \"+ response.text)\n    \n        # verify status code\n>       self.assertion.assert_equal(self.assertEqual, response.status_code, 203,\n                         msg=\"Expected status code is 200 but found \"+str(response.status_code))\nE       TypeError: assert_equal() got an unexpected keyword argument 'msg'\n\nTests/test_time_series_weekly.py:22: TypeError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "unittest_setUpClass_fixture_Test_TimeSeriesWeekly",
+    "time" : {
+      "start" : 1611644703354,
+      "stop" : 1611644703355,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "TypeError: assert_equal() got an unexpected keyword argument 'msg'",
+    "statusTrace" : "self = <test_time_series_weekly.Test_TimeSeriesWeekly testMethod=test_time_series_weekly>\n\n    def test_time_series_weekly(self):\n        self.logger.info(\"test started\")\n        url = self.base_url+\"function=TIME_SERIES_WEEKLY&symbol=\"+self.symbol+\"&apikey=\"+self.apiKey\n        self.logger.info(\"url : \" + url)\n        response = requests.get(url)\n        response_json = response.json()\n    \n        self.logger.info(\"response : \"+ response.text)\n    \n        # verify status code\n>       self.assertion.assert_equal(self.assertEqual, response.status_code, 203,\n                         msg=\"Expected status code is 200 but found \"+str(response.status_code))\nE       TypeError: assert_equal() got an unexpected keyword argument 'msg'\n\nTests/test_time_series_weekly.py:22: TypeError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "bf84db5fa5229ab7",
+      "name" : "log",
+      "source" : "bf84db5fa5229ab7.txt",
+      "type" : "text/plain",
+      "size" : 233055
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "unittest_setUpClass_fixture_Test_TimeSeriesWeekly::0",
+    "time" : {
+      "start" : 1611644710310,
+      "stop" : 1611644710310,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "Tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_time_series_weekly"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_TimeSeriesWeekly"
+  }, {
+    "name" : "host",
+    "value" : "san-ThinkPad-T480"
+  }, {
+    "name" : "thread",
+    "value" : "267155-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Tests.test_time_series_weekly"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "721047894f32f77d.json",
+  "parameterValues" : [ ]
+}

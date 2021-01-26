@@ -1,0 +1,89 @@
+{
+  "uid" : "fa9b52c46fd273dd",
+  "name" : "test_company_overview",
+  "fullName" : "Tests.test_company_overview.Test_CompanyOverview#test_company_overview",
+  "historyId" : "5ccb5911223bd14f7dd4b1c66a495591",
+  "time" : {
+    "start" : 1611669025662,
+    "stop" : 1611669025663,
+    "duration" : 1
+  },
+  "status" : "broken",
+  "statusMessage" : "AttributeError: 'Test_CompanyOverview' object has no attribute 'is_testcase_runnable'",
+  "statusTrace" : "self = <test_company_overview.Test_CompanyOverview testMethod=test_company_overview>\n\n    @pytest.mark.skipif(BaseClass.is_testcase_runnable('test_company_overview'), reason=\"skipping because flag is set to false in excel\")\n    def test_company_overview(self):\n>       print(self.is_testcase_runnable())\nE       AttributeError: 'Test_CompanyOverview' object has no attribute 'is_testcase_runnable'\n\nTests/test_company_overview.py:15: AttributeError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "unittest_setUpClass_fixture_Test_CompanyOverview",
+    "time" : {
+      "start" : 1611669025662,
+      "stop" : 1611669025662,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "unittest_setUpClass_fixture_Test_CompanyOverview::0",
+    "time" : {
+      "start" : 1611669029244,
+      "stop" : 1611669029245,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "@pytest.mark.skipif(False, reason='skipping because flag is set to false in excel')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_company_overview"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_CompanyOverview"
+  }, {
+    "name" : "host",
+    "value" : "san-ThinkPad-T480"
+  }, {
+    "name" : "thread",
+    "value" : "288160-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Tests.test_company_overview"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.skipif(False, reason='skipping because flag is set to false in excel')" ]
+  },
+  "source" : "fa9b52c46fd273dd.json",
+  "parameterValues" : [ ]
+}

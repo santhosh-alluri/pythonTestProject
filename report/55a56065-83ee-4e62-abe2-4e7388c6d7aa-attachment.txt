@@ -1,0 +1,2 @@
+[32mINFO    [0m root:test_search_endpoint.py:70 test_time_series_daily_invalid_symbol started
+[32mINFO    [0m root:test_search_endpoint.py:72 url : https://www.alphavantage.co/query?function=SYMBOL_SEARCH&keywords=&apikey=0S5QXIPXLA3EYXH5

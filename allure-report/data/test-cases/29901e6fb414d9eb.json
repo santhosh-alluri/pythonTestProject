@@ -1,0 +1,104 @@
+{
+  "uid" : "29901e6fb414d9eb",
+  "name" : "test_global_quote_invalid_apiToken",
+  "fullName" : "Tests.test_global_quote.Test_GlobalQuote#test_global_quote_invalid_apiToken",
+  "historyId" : "d9f05f3ab0082e8eed13a87697704f3c",
+  "time" : {
+    "start" : 1611597308567,
+    "stop" : 1611597309782,
+    "duration" : 1215
+  },
+  "status" : "broken",
+  "statusMessage" : "TypeError: can only concatenate str (not \"dict\") to str",
+  "statusTrace" : "self = <test_global_quote.Test_GlobalQuote testMethod=test_global_quote_invalid_apiToken>\n\n    def test_global_quote_invalid_apiToken(self):\n        self.logger.info(\"test_time_series_daily_invalid_symbol started\")\n        url = self.base_url+\"function=GLOBAL_QUOTE&symbol=wipro&apikey=raft\"\n        self.logger.info(\"url : \" + url)\n        response = requests.get(url)\n        response_json = response.json()\n        self.logger.info(\"response : \" + response.text)\n        # response assertion\n        self.soft_assert(self.assertEqual, response_json['Global Quote'],\n                         {},\n>                        msg=\"response not meeted expected error\" + response_json['Global Quote'])\nE       TypeError: can only concatenate str (not \"dict\") to str\n\nTests/test_global_quote.py:75: TypeError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "unittest_setUpClass_fixture_Test_GlobalQuote",
+    "time" : {
+      "start" : 1611597307413,
+      "stop" : 1611597307413,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "TypeError: can only concatenate str (not \"dict\") to str",
+    "statusTrace" : "self = <test_global_quote.Test_GlobalQuote testMethod=test_global_quote_invalid_apiToken>\n\n    def test_global_quote_invalid_apiToken(self):\n        self.logger.info(\"test_time_series_daily_invalid_symbol started\")\n        url = self.base_url+\"function=GLOBAL_QUOTE&symbol=wipro&apikey=raft\"\n        self.logger.info(\"url : \" + url)\n        response = requests.get(url)\n        response_json = response.json()\n        self.logger.info(\"response : \" + response.text)\n        # response assertion\n        self.soft_assert(self.assertEqual, response_json['Global Quote'],\n                         {},\n>                        msg=\"response not meeted expected error\" + response_json['Global Quote'])\nE       TypeError: can only concatenate str (not \"dict\") to str\n\nTests/test_global_quote.py:75: TypeError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "8924607b1220b4a",
+      "name" : "log",
+      "source" : "8924607b1220b4a.txt",
+      "type" : "text/plain",
+      "size" : 311
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "unittest_setUpClass_fixture_Test_GlobalQuote::0",
+    "time" : {
+      "start" : 1611597312344,
+      "stop" : 1611597312344,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "Tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_global_quote"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_GlobalQuote"
+  }, {
+    "name" : "host",
+    "value" : "san-ThinkPad-T480"
+  }, {
+    "name" : "thread",
+    "value" : "224648-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Tests.test_global_quote"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "29901e6fb414d9eb.json",
+  "parameterValues" : [ ]
+}

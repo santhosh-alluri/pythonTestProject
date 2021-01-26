@@ -1,0 +1,17 @@
+[32mINFO    [0m root:test_global_quote.py:16 test started
+[32mINFO    [0m root:test_global_quote.py:18 url : https://www.alphavantage.co/query?function=GLOBAL_QUOTE&symbol=IBM&apikey=0S5QXIPXLA3EYXH5
+[32mINFO    [0m root:test_global_quote.py:22 response : {
+    "Global Quote": {
+        "01. symbol": "IBM",
+        "02. open": "120.7000",
+        "03. high": "120.7000",
+        "04. low": "117.3600",
+        "05. price": "118.6100",
+        "06. volume": "38063533",
+        "07. latest trading day": "2021-01-22",
+        "08. previous close": "131.6500",
+        "09. change": "-13.0400",
+        "10. change percent": "-9.9051%"
+    }
+}
+[32mINFO    [0m root:test_global_quote.py:46 test ended

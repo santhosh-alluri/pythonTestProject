@@ -1,0 +1,104 @@
+{
+  "uid" : "8f70a11adad8ca6d",
+  "name" : "test_time_series_daily",
+  "fullName" : "Tests.test_time_series_daily.Test_TimeSeriesDaily#test_time_series_daily",
+  "historyId" : "f72e9e8460fdc3c3945b05f1e3d0d240",
+  "time" : {
+    "start" : 1611602506680,
+    "stop" : 1611602507690,
+    "duration" : 1010
+  },
+  "status" : "broken",
+  "statusMessage" : "KeyError: 'Meta Data'",
+  "statusTrace" : "self = <test_time_series_daily.Test_TimeSeriesDaily testMethod=test_time_series_daily>\n\n    def test_time_series_daily(self):\n        self.logger.info(\"test started\")\n        url = self.base_url+\"function=TIME_SERIES_DAILY&symbol=\"+self.symbol+\"&apikey=\"+self.apiKey\n        response = requests.get(url)\n        response_json = response.json()\n    \n        self.logger.info(\"response : \"+ response.text)\n    \n        # verify status code\n        self.soft_assert(self.assertEqual, response.status_code, 200,\n                         msg=\"Expected status code is 200 but found \"+str(response.status_code))\n    \n        # header validation\n        self.soft_assert(self.assertEqual, response.headers.get('Content-Type'), \"application/json\",\n                         msg=\"Expected Content-Type is application/json but found \"+ response.headers.get('Content-Type'))\n    \n        # symbol validation\n>       self.soft_assert(self.assertEqual, response_json['Meta Data']['2. Symbol'] , \"IBM\",\n                         msg=\"Expected symbol is IBM but found \"+ response_json['Meta Data']['2. Symbol'])\nE       KeyError: 'Meta Data'\n\nTests/test_time_series_daily.py:34: KeyError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "unittest_setUpClass_fixture_Test_TimeSeriesDaily",
+    "time" : {
+      "start" : 1611602506678,
+      "stop" : 1611602506678,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "KeyError: 'Meta Data'",
+    "statusTrace" : "self = <test_time_series_daily.Test_TimeSeriesDaily testMethod=test_time_series_daily>\n\n    def test_time_series_daily(self):\n        self.logger.info(\"test started\")\n        url = self.base_url+\"function=TIME_SERIES_DAILY&symbol=\"+self.symbol+\"&apikey=\"+self.apiKey\n        response = requests.get(url)\n        response_json = response.json()\n    \n        self.logger.info(\"response : \"+ response.text)\n    \n        # verify status code\n        self.soft_assert(self.assertEqual, response.status_code, 200,\n                         msg=\"Expected status code is 200 but found \"+str(response.status_code))\n    \n        # header validation\n        self.soft_assert(self.assertEqual, response.headers.get('Content-Type'), \"application/json\",\n                         msg=\"Expected Content-Type is application/json but found \"+ response.headers.get('Content-Type'))\n    \n        # symbol validation\n>       self.soft_assert(self.assertEqual, response_json['Meta Data']['2. Symbol'] , \"IBM\",\n                         msg=\"Expected symbol is IBM but found \"+ response_json['Meta Data']['2. Symbol'])\nE       KeyError: 'Meta Data'\n\nTests/test_time_series_daily.py:34: KeyError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "55dfd3c979b5f170",
+      "name" : "log",
+      "source" : "55dfd3c979b5f170.txt",
+      "type" : "text/plain",
+      "size" : 364
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "unittest_setUpClass_fixture_Test_TimeSeriesDaily::0",
+    "time" : {
+      "start" : 1611602511081,
+      "stop" : 1611602511082,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "Tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_time_series_daily"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_TimeSeriesDaily"
+  }, {
+    "name" : "host",
+    "value" : "san-ThinkPad-T480"
+  }, {
+    "name" : "thread",
+    "value" : "232324-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Tests.test_time_series_daily"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8f70a11adad8ca6d.json",
+  "parameterValues" : [ ]
+}

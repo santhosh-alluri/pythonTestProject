@@ -1,0 +1,4 @@
+[32mINFO    [0m root:test_company_overview.py:70 test_time_series_daily_invalid_symbol started
+[32mINFO    [0m root:test_company_overview.py:72 url : https://www.alphavantage.co/query?function=OVERVIEW&symbol=wipro&apikey=raft
+[32mINFO    [0m root:test_company_overview.py:75 response : {}
+[32mINFO    [0m root:test_company_overview.py:80 test_time_series_daily_invalid_symbol ended

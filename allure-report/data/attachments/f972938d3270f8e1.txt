@@ -1,0 +1,5 @@
+[32mINFO    [0m root:test_time_series_daily.py:88 test_time_series_daily_invalid_symbol started
+[32mINFO    [0m root:test_time_series_daily.py:92 response : {
+    "Error Message": "the parameter apikey is invalid or missing. Please claim your free API key on (https://www.alphavantage.co/support/#api-key). It should take less than 20 seconds."
+}
+[32mINFO    [0m root:test_time_series_daily.py:97 test_time_series_daily_invalid_symbol ended

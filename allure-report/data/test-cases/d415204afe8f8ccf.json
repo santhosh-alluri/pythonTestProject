@@ -1,0 +1,293 @@
+{
+  "uid" : "d415204afe8f8ccf",
+  "name" : "test_time_series_weekly_invalid_symbol",
+  "fullName" : "Tests.test_time_series_weekly.Test_TimeSeriesWeekly#test_time_series_weekly_invalid_symbol",
+  "historyId" : "6b095482e769bc1c747c1e162956a746",
+  "time" : {
+    "start" : 1611671975126,
+    "stop" : 1611671976247,
+    "duration" : 1121
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "unittest_setUpClass_fixture_Test_TimeSeriesWeekly",
+    "time" : {
+      "start" : 1611671971454,
+      "stop" : 1611671971455,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "17bc5b7864e2095c",
+      "name" : "log",
+      "source" : "17bc5b7864e2095c.txt",
+      "type" : "text/plain",
+      "size" : 573
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "unittest_setUpClass_fixture_Test_TimeSeriesWeekly::0",
+    "time" : {
+      "start" : 1611671978398,
+      "stop" : 1611671978399,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "@pytest.mark.skipif(False, reason='skipping because flag is set to false in excel')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_time_series_weekly"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_TimeSeriesWeekly"
+  }, {
+    "name" : "host",
+    "value" : "san-ThinkPad-T480"
+  }, {
+    "name" : "thread",
+    "value" : "295169-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Tests.test_time_series_weekly"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "97acb28204ec884c",
+      "status" : "broken",
+      "statusDetails" : "KeyError: 'Error Message'",
+      "time" : {
+        "start" : 1611671878324,
+        "stop" : 1611671879326,
+        "duration" : 1002
+      }
+    }, {
+      "uid" : "b9c1def46e9ac778",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611671858381,
+        "stop" : 1611671859508,
+        "duration" : 1127
+      }
+    }, {
+      "uid" : "aa2158be991a50be",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: skipping because flag is set to false in excel",
+      "time" : {
+        "start" : 1611671758835,
+        "stop" : 1611671758835,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "38155d22ab368894",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: skipping because flag is set to false in excel",
+      "time" : {
+        "start" : 1611671710867,
+        "stop" : 1611671710867,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "c43eff1b11ade56f",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: skipping because flag is set to false in excel",
+      "time" : {
+        "start" : 1611671654999,
+        "stop" : 1611671654999,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "db3a6fce83a99f47",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611671302740,
+        "stop" : 1611671303863,
+        "duration" : 1123
+      }
+    }, {
+      "uid" : "78ce40fc1b03d4af",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611671169689,
+        "stop" : 1611671170844,
+        "duration" : 1155
+      }
+    }, {
+      "uid" : "d6cde5693269f1d2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611671154360,
+        "stop" : 1611671155480,
+        "duration" : 1120
+      }
+    }, {
+      "uid" : "5d971692c88b2520",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611671087395,
+        "stop" : 1611671088515,
+        "duration" : 1120
+      }
+    }, {
+      "uid" : "58f5a5d9e8e7a16f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611670834974,
+        "stop" : 1611670836092,
+        "duration" : 1118
+      }
+    }, {
+      "uid" : "ed70e560ca9d557f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611646345281,
+        "stop" : 1611646346460,
+        "duration" : 1179
+      }
+    }, {
+      "uid" : "1a2dafaf13bf905d",
+      "status" : "broken",
+      "statusDetails" : "KeyError: 'Error Message'",
+      "time" : {
+        "start" : 1611646169091,
+        "stop" : 1611646170228,
+        "duration" : 1137
+      }
+    }, {
+      "uid" : "3689059d6453f10a",
+      "status" : "broken",
+      "statusDetails" : "KeyError: 'Error Message'",
+      "time" : {
+        "start" : 1611646106345,
+        "stop" : 1611646107362,
+        "duration" : 1017
+      }
+    }, {
+      "uid" : "111c3ca9fa1fc662",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611645195271,
+        "stop" : 1611645196396,
+        "duration" : 1125
+      }
+    }, {
+      "uid" : "5cf2e2f2ba024507",
+      "status" : "broken",
+      "statusDetails" : "KeyError: 'Error Message'",
+      "time" : {
+        "start" : 1611644803302,
+        "stop" : 1611644804309,
+        "duration" : 1007
+      }
+    }, {
+      "uid" : "83bda0e76ae7d8b5",
+      "status" : "broken",
+      "statusDetails" : "KeyError: 'Error Message'",
+      "time" : {
+        "start" : 1611644707268,
+        "stop" : 1611644708261,
+        "duration" : 993
+      }
+    }, {
+      "uid" : "caa4e68947ceafa0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611604108162,
+        "stop" : 1611604109216,
+        "duration" : 1054
+      }
+    }, {
+      "uid" : "c1851e4485a912ac",
+      "status" : "broken",
+      "statusDetails" : "KeyError: 'Error Message'",
+      "time" : {
+        "start" : 1611602511832,
+        "stop" : 1611602512197,
+        "duration" : 365
+      }
+    }, {
+      "uid" : "bc6a42fcf190ed85",
+      "status" : "broken",
+      "statusDetails" : "KeyError: 'Error Message'",
+      "time" : {
+        "start" : 1611599812091,
+        "stop" : 1611599812481,
+        "duration" : 390
+      }
+    }, {
+      "uid" : "10dea70373613298",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611595450970,
+        "stop" : 1611595452008,
+        "duration" : 1038
+      }
+    }, {
+      "uid" : "bc0c52a2e8a8c4f3",
+      "status" : "broken",
+      "statusDetails" : "KeyError: 'Error Message'",
+      "time" : {
+        "start" : 1611595318431,
+        "stop" : 1611595319405,
+        "duration" : 974
+      }
+    }, {
+      "uid" : "5f629999b8712135",
+      "status" : "broken",
+      "statusDetails" : "KeyError: 'Error Message'",
+      "time" : {
+        "start" : 1611594083824,
+        "stop" : 1611594084768,
+        "duration" : 944
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.skipif(False, reason='skipping because flag is set to false in excel')" ]
+  },
+  "source" : "d415204afe8f8ccf.json",
+  "parameterValues" : [ ]
+}

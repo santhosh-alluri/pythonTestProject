@@ -1,0 +1,226 @@
+{
+  "uid" : "757e0a33ea7b949e",
+  "name" : "test_search_endpoint_invalid_apiToken_and_symbol",
+  "fullName" : "Tests.test_search_endpoint.Test_CompanyOverview#test_search_endpoint_invalid_apiToken_and_symbol",
+  "historyId" : "c78f0d412ab54efe9845bbb38d0c3542",
+  "time" : {
+    "start" : 1611670575986,
+    "stop" : 1611670577054,
+    "duration" : 1068
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "unittest_setUpClass_fixture_Test_CompanyOverview",
+    "time" : {
+      "start" : 1611670574904,
+      "stop" : 1611670574904,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "6ad6aeb4cc668018",
+      "name" : "log",
+      "source" : "6ad6aeb4cc668018.txt",
+      "type" : "text/plain",
+      "size" : 417
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "unittest_setUpClass_fixture_Test_CompanyOverview::0",
+    "time" : {
+      "start" : 1611670579561,
+      "stop" : 1611670579561,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "@pytest.mark.skipif(False, reason='skipping because flag is set to false in excel')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_search_endpoint"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_CompanyOverview"
+  }, {
+    "name" : "host",
+    "value" : "san-ThinkPad-T480"
+  }, {
+    "name" : "thread",
+    "value" : "291636-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Tests.test_search_endpoint"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "c92a00df65d3aa70",
+      "status" : "broken",
+      "statusDetails" : "requests.exceptions.ConnectionError: HTTPSConnectionPool(host='www.alphavantage.co', port=443): Max retries exceeded with url: /query?function=SYMBOL_SEARCH&keywords==wipro&apikey=raft (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7f7c3b304af0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))",
+      "time" : {
+        "start" : 1611670553010,
+        "stop" : 1611670553012,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "4f0bf56778e3115",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611669030370,
+        "stop" : 1611669031493,
+        "duration" : 1123
+      }
+    }, {
+      "uid" : "f990d98807913da4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611668900831,
+        "stop" : 1611668901339,
+        "duration" : 508
+      }
+    }, {
+      "uid" : "5263ae96b95b6a4e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611668792990,
+        "stop" : 1611668799344,
+        "duration" : 6354
+      }
+    }, {
+      "uid" : "511da27d48d5649b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611645971175,
+        "stop" : 1611645972286,
+        "duration" : 1111
+      }
+    }, {
+      "uid" : "4208f2a7b448c2a1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611645754046,
+        "stop" : 1611645754497,
+        "duration" : 451
+      }
+    }, {
+      "uid" : "af406a5d580ce619",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611645678916,
+        "stop" : 1611645679420,
+        "duration" : 504
+      }
+    }, {
+      "uid" : "4218c9cb47ea930",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611645619734,
+        "stop" : 1611645620947,
+        "duration" : 1213
+      }
+    }, {
+      "uid" : "4b387b08f7b12843",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611645396244,
+        "stop" : 1611645396694,
+        "duration" : 450
+      }
+    }, {
+      "uid" : "c7f981c8587be70f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611603932528,
+        "stop" : 1611603933729,
+        "duration" : 1201
+      }
+    }, {
+      "uid" : "398dd30bc3ef0410",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611602503605,
+        "stop" : 1611602504115,
+        "duration" : 510
+      }
+    }, {
+      "uid" : "d07f307279eda69",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611599804508,
+        "stop" : 1611599805623,
+        "duration" : 1115
+      }
+    }, {
+      "uid" : "4a1172a648d808d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611599610856,
+        "stop" : 1611599611897,
+        "duration" : 1041
+      }
+    }, {
+      "uid" : "e195199ea87a5260",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611599473634,
+        "stop" : 1611599474759,
+        "duration" : 1125
+      }
+    }, {
+      "uid" : "f6d2a3edbcba009",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611599344860,
+        "stop" : 1611599346042,
+        "duration" : 1182
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.skipif(False, reason='skipping because flag is set to false in excel')" ]
+  },
+  "source" : "757e0a33ea7b949e.json",
+  "parameterValues" : [ ]
+}
