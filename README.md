@@ -34,7 +34,7 @@ Please run below command from project root terminal
 
 ## Running TestCases
 
-### Setting which scenarion/testcase should run :
+### Select scenario/testcase to be run :
 1. open "test.xlsx" file from Excel folder
 2. open "Suite" sheet
 3. set "Y"(run)/"N"(don't run) for "toBeRun" column for required scenarions
@@ -44,7 +44,7 @@ Please run below command from project root terminal
 
 ### Running Tests from terminal
 1. open terminal from project directory
-2. run "python3 -m pytest --alluredir=report" from terminal
+2. run "python3 -m pytest --alluredir=report" or "pytest --alluredir=report" from terminal
 3. wait till execution complete
 4. run "allure generate report --clean" from terminal
 5. after successfull running of above command
